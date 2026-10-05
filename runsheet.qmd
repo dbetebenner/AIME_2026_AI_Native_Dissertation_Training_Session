@@ -34,11 +34,14 @@ format:
 
 ### 0:00–0:25 · "AI is like a…" and introductions
 
-- **Do:** open cold on the exercise slide; two silent minutes; write your own three.
-- **Do (0:03):** introductions through metaphors, about 2 minutes each. You go last. Fill the metaphor table, and fill the attendee board (mode, tool).
-- **Say (0:17):** limiting versus expansive pictures; "today: AI as a medium, and a collaborator, never an author."
-- **Do (0:20):** everyone asks their AI "AI is like a…". This doubles as a **tool check**; flag anyone whose AI isn't working.
-- **Cut if behind:** skip the "ask your AI" round (keep the tool check: just "open your AI and say hi").
+- **Do:** open cold on the exercise slide; two silent minutes. Keep yours for its own slide.
+- **Do (0:03):** introductions through metaphors, about 2 minutes each. Fill the metaphor table, and fill the attendee board (mode, tool).
+- **Say (0:14):** yours, on its own slide: *"AI is intellectual alchemy: the transmutation of accumulated human symbols into new forms of cognition, agency, and world-making."* Read it once, slowly; pause.
+- **Say (0:16):** what was scarce (intelligence) becomes abundant; a disruptive innovation for intelligence workers. "That is us."
+- **Show (0:18):** the wave and the surfboards. "Your repository is a surfboard; you leave with one today."
+- **Say (0:20):** limiting versus expansive pictures; "today: AI as a medium, and a collaborator, never an author."
+- **Do (0:22):** everyone asks their AI "AI is like a…". This doubles as a **tool check**; flag anyone whose AI isn't working.
+- **Cut if behind:** skip the "ask your AI" round (keep the tool check: just "open your AI and say hi"). Never cut the alchemy, scarcity or wave slides.
 
 ### 0:25–0:45 · Why: the dissertation as transmission
 

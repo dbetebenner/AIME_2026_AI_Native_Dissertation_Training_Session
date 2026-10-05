@@ -40,7 +40,7 @@ How we *picture* AI quietly decides what we think it can do for us.
 ::: {.notes}
 0:00. Open cold with this. No title slide talk. Before names, before agenda.
 Say: "Before anything else — finish this sentence three ways. Not the right answer; your answer."
-Give a full two minutes of quiet. Write your own three while they write (yours: a genie; a universal translator; a language being — not fully autonomous, but like us in that our brain is a language organ).
+Give a full two minutes of quiet. Don't share yours yet: you present it on its own slide after theirs (0:14).
 Watch: someone stuck → "what do you reach for it to do?"
 :::
 
@@ -56,19 +56,18 @@ Around the room, please share:
 4. **What you'd like to walk out with** today
 
 ::: {.notes}
-0:03–0:15. Five attendees — about two minutes each. Write every metaphor into the table on the next slide (chalkboard, or type into your speaker copy).
-You go last, with yours.
+0:03–0:13. Five attendees, about two minutes each. Write every metaphor into the table on the next slide (chalkboard, or type into your speaker copy).
+Yours comes after theirs, on its own slide.
 Listen for: tool metaphors (search engine, calculator), agent metaphors (intern, colleague), medium metaphors (lens, translator). You'll use these categories next.
 Also ask each for their readiness-report "mode" (A local / B connected / C chat-only) from the pre-work prompt — note it on the run-sheet; it decides who you help first in Hands-on 1.
 :::
 
 ## Our metaphors
 
-<span class="time-mark">0:15</span>
+<span class="time-mark">0:13</span>
 
 | Who | AI is like… | …and like… | …and like… |
 |---|---|---|---|
-| Damian | a genie | a universal translator | a language being — not fully autonomous (yet), but like us: our brain is a language organ |
 | | | | |
 | | | | |
 | | | | |
@@ -76,13 +75,67 @@ Also ask each for their readiness-report "mode" (A local / B connected / C chat-
 | | | | |
 
 ::: {.notes}
-0:15. Fill as people speak (chalkboard: press C; or edit the .qmd live before the session ends — the deck is the record).
-Keep this table: we come back to it at 3:50.
+0:13. Fill as people speak (chalkboard: press C; or edit the .qmd live before the session ends — the deck is the record).
+Keep this table: we come back to it at 3:48. Then: “Here is mine.”
+:::
+
+## My answer {.alchemy background-color="#14140f"}
+
+::: {.alchemy-quote}
+**AI is intellectual alchemy:** the transmutation of accumulated human symbols into new forms of cognition, agency, and world-making.
+:::
+
+::: {.notes}
+0:14–0:16. Let it sit. Read it once, slowly, then stop talking for a beat.
+Unpack the three phrases if asked: *accumulated human symbols* (everything we have written, counted, coded); *transmutation* (not retrieval: something new is made from them); *cognition, agency, world-making* (it reasons, it acts, it changes what is possible).
+Bridge: "Alchemy promised to turn the common into the precious. This turns something precious into something common."
+:::
+
+## What was scarce becomes abundant
+
+<span class="time-mark">0:16</span>
+
+::: {.columns}
+::: {.column width="48%"}
+**For all of history**
+
+**Intelligence** — the capacity to reason, analyze, write, explain — has been **scarce**.
+
+Careers, institutions, and dissertations are built on that scarcity.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Now**
+
+AI makes intelligence **abundant**.
+
+That is a **disruptive innovation** for intelligence workers.
+
+*That is us.*
+:::
+:::
+
+::: {.notes}
+0:16–0:18. The scarcity point, plainly. Disruptive innovation in Christensen's sense: what was costly and rare becomes cheap and everywhere, and the work organised around its scarcity has to change.
+Don't sell fear. Name it, then turn: the next slide is what we do about it.
+:::
+
+## The wave, and our surfboards {.wave}
+
+![](assets/img/tsunami-surfboards.svg){fig-alt="A towering wave, its body made of letters, numerals, mathematical signs and code, curls over a calm sea. Small figures ride its face on copper surfboards. On the shore, two people shape a new surfboard beside a glowing laptop, while a single candle burns on a crate."}
+
+[AI is a fast-approaching tsunami. We are building **surfboards** — with AI — to ride it.]{.wave-caption}
+
+::: {.notes}
+0:18–0:20. The wave is made of our own symbols: letters, numbers, mathematics, code. That is the alchemy slide, drawn.
+Point to the shore: the candle is how intelligence used to be (scarce, small, precious). The two people with the laptop are us today: shaping a board, with the AI beside us.
+"Your dissertation repository is a surfboard. You leave today with one, and you'll know how to shape it."
 :::
 
 ## What our metaphors do to us
 
-<span class="time-mark">0:17</span>
+<span class="time-mark">0:20</span>
 
 ::: {.columns}
 ::: {.column width="50%"}
@@ -108,13 +161,13 @@ Today we treat AI as a **medium for transmitting what you know** — and as a co
 :::
 
 ::: {.notes}
-0:17–0:20. Map the room's metaphors onto the two columns — point at the table. No judgment: limiting pictures aren't wrong, they're narrow.
+0:20–0:22. Map the room's metaphors onto the two columns — point at the table. No judgment: limiting pictures aren't wrong, they're narrow.
 Bridge: the rest of the day is practice at the expansive end.
 :::
 
 ## Ask your AI the same question
 
-<span class="time-mark">0:20</span>
+<span class="time-mark">0:22</span>
 
 Open your AI and ask:
 
@@ -125,7 +178,7 @@ Open your AI and ask:
 We'll compare answers — and keep them. We come back to *all* of these at the end.
 
 ::: {.notes}
-0:20–0:25. This doubles as a tool check: anyone whose AI isn't working surfaces now, not at 1:10. Note them for the run-sheet.
+0:22–0:25. This doubles as a tool check: anyone whose AI isn't working surfaces now, not at 1:10. Note them for the run-sheet.
 Take two or three readouts. Funny ones are fine.
 :::
 
@@ -712,6 +765,7 @@ Back to our table.
 - Did anyone's picture **change** today?
 - What would you add as a **fourth** metaphor?
 - What did your AI say about itself — and was it right?
+- Is your repository a **surfboard** yet?
 
 ::: {.notes}
 3:48–3:53. Return to the metaphors slide (press the slide number or navigate back). Let attendees revise. This closes the loop opened at 0:00.

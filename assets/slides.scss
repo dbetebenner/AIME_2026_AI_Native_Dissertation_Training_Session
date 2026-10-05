@@ -82,3 +82,32 @@ $code-block-font-size: 0.75em;
 .reveal .cell-output-display svg,
 .reveal .mermaid svg { width: 100% !important; max-width: 100% !important; height: auto; max-height: 520px; }
 .reveal .mermaid .nodeLabel, .reveal .mermaid .label { line-height: 1.25 !important; }
+
+// "AI is intellectual alchemy" — the presenter's own metaphor, full slide.
+.reveal .slide.alchemy h2 { color: $paper; }
+.reveal .slide.alchemy .eyebrow { color: #f0a467; opacity: 1; }
+.reveal .slide.alchemy .alchemy-quote {
+  margin-top: 1.4em;
+  padding-left: 0.9em;
+  border-left: 8px solid #d9783f;
+  color: $paper;
+  font-size: 1.45em;
+  line-height: 1.35;
+  max-width: 24em;
+}
+.reveal .slide.alchemy .alchemy-quote strong { color: #f0a467; }
+
+// The wave and the surfboards: the illustration fills the slide's width.
+.reveal .slide.wave img {
+  display: block;
+  width: 100%;
+  max-height: 640px;
+  object-fit: contain;
+  margin: 0.2em auto 0;
+}
+.reveal .slide.wave .wave-caption {
+  display: block;
+  margin-top: 0.4em;
+  font-size: 1.05em;
+  text-align: center;
+}

@@ -1,0 +1,959 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-labelledby="t d">
+<title id="t">Building surfboards to ride the wave</title>
+<desc id="d">A towering wave, its body made of letters, numerals, mathematical signs and code, curls over a calm sea. Small figures ride its face on copper surfboards. On the shore in the foreground, two people shape a new surfboard on trestles beside a glowing laptop, while a single candle burns on a crate: once-scarce intelligence beside an abundance arriving as a wave.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fefdfb"/><stop offset="1" stop-color="#ededeb"/></linearGradient>
+<linearGradient id="face" x1="0.15" y1="1" x2="0.75" y2="0"><stop offset="0" stop-color="#0e2f44"/><stop offset="0.55" stop-color="#1f618d"/><stop offset="1" stop-color="#5fa8d3"/></linearGradient>
+<linearGradient id="barrel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e2f44"/><stop offset="1" stop-color="#174a6b"/></linearGradient>
+<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f618d"/><stop offset="1" stop-color="#0e2f44"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffe8b0" stop-opacity="0.95"/><stop offset="1" stop-color="#ffe8b0" stop-opacity="0"/></radialGradient>
+<clipPath id="waveclip"><path d="M 430 620 C 640 612, 790 548, 880 440 C 960 340, 1010 210, 1130 150 C 1250 92, 1410 120, 1480 220 C 1540 305, 1545 420, 1600 470 L 1600 760 L 430 760 L 430 620 Z"/></clipPath>
+</defs>
+<rect width="1600" height="760" fill="url(#sky)"/>
+<circle cx="300" cy="170" r="92" fill="#d9783f" opacity="0.28"/>
+<circle cx="300" cy="170" r="60" fill="#d9783f" opacity="0.35"/>
+<path d="M 0 560 L 1600 560 L 1600 760 L 0 760 Z" fill="url(#sea)"/>
+<g transform="translate(150 562) scale(0.55)"><path d="M -120 0 C -60 -4, -20 -40, 20 -70 C 50 -92, 95 -88, 110 -60 C 85 -78, 55 -70, 45 -52 C 38 -38, 52 -30, 62 -36 C 52 -22, 30 -22, 26 -40 C 10 -20, -20 -2, -40 0 Z" fill="#1f618d"/><path d="M 20 -70 C 50 -92, 95 -88, 110 -60" fill="none" stroke="#f4f8fb" stroke-width="5" stroke-linecap="round"/></g>
+<g transform="translate(395 562) scale(0.8)"><path d="M -120 0 C -60 -4, -20 -40, 20 -70 C 50 -92, 95 -88, 110 -60 C 85 -78, 55 -70, 45 -52 C 38 -38, 52 -30, 62 -36 C 52 -22, 30 -22, 26 -40 C 10 -20, -20 -2, -40 0 Z" fill="#1f618d"/><path d="M 20 -70 C 50 -92, 95 -88, 110 -60" fill="none" stroke="#f4f8fb" stroke-width="5" stroke-linecap="round"/></g>
+<path d="M 30 568 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.25"/>
+<path d="M 99 577 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.30"/>
+<path d="M 35 586 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.35"/>
+<path d="M 62 595 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.40"/>
+<path d="M -1 604 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.45"/>
+<path d="M -16 613 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.50"/>
+<path d="M 101 622 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.55"/>
+<path d="M 93 631 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.60"/>
+<path d="M -35 640 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0 q 18 -6 36 0" fill="none" stroke="#f4f8fb" stroke-width="1.6" opacity="0.65"/>
+<path d="M 430 620 C 640 612, 790 548, 880 440 C 960 340, 1010 210, 1130 150 C 1250 92, 1410 120, 1480 220 C 1540 305, 1545 420, 1600 470 L 1600 760 L 430 760 L 430 620 Z" fill="url(#face)"/>
+<g clip-path="url(#waveclip)" font-family="Noto Sans Mono, Menlo, monospace" fill="#ffffff">
+<text x="430" y="140" font-size="10" opacity="0.31">L</text>
+<text x="479" y="140" font-size="18" opacity="0.34">k</text>
+<text x="531" y="140" font-size="15" opacity="0.31">0</text>
+<text x="575" y="140" font-size="10" opacity="0.34">d</text>
+<text x="618" y="140" font-size="12" opacity="0.25">z</text>
+<text x="658" y="140" font-size="11" opacity="0.22">l</text>
+<text x="696" y="140" font-size="12" opacity="0.25">U</text>
+<text x="747" y="140" font-size="15" opacity="0.31">&amp;</text>
+<text x="794" y="140" font-size="10" opacity="0.32">d</text>
+<text x="831" y="140" font-size="13" opacity="0.30">λ</text>
+<text x="876" y="140" font-size="12" opacity="0.26">α</text>
+<text x="916" y="140" font-size="15" opacity="0.21">I</text>
+<text x="949" y="140" font-size="10" opacity="0.22">3</text>
+<text x="1001" y="140" font-size="10" opacity="0.34">2</text>
+<text x="1038" y="140" font-size="13" opacity="0.32">{ }</text>
+<text x="1084" y="140" font-size="18" opacity="0.21">W</text>
+<text x="1141" y="140" font-size="12" opacity="0.25">β</text>
+<text x="1182" y="140" font-size="18" opacity="0.25">i</text>
+<text x="1214" y="140" font-size="12" opacity="0.29">D</text>
+<text x="1246" y="140" font-size="11" opacity="0.35">j</text>
+<text x="1279" y="140" font-size="18" opacity="0.27">f</text>
+<text x="1317" y="140" font-size="12" opacity="0.25">g</text>
+<text x="1370" y="140" font-size="18" opacity="0.34">&lt;/&gt;</text>
+<text x="1436" y="140" font-size="15" opacity="0.31">β</text>
+<text x="1469" y="140" font-size="10" opacity="0.34">if</text>
+<text x="1528" y="140" font-size="11" opacity="0.33">2</text>
+<text x="1569" y="140" font-size="15" opacity="0.35">o</text>
+<text x="439" y="161" font-size="15" opacity="0.31">√</text>
+<text x="483" y="161" font-size="13" opacity="0.30">p&lt;.05</text>
+<text x="564" y="161" font-size="18" opacity="0.26">A</text>
+<text x="605" y="161" font-size="10" opacity="0.30">R</text>
+<text x="645" y="161" font-size="13" opacity="0.25">f</text>
+<text x="692" y="161" font-size="12" opacity="0.20">i</text>
+<text x="740" y="161" font-size="18" opacity="0.21">g</text>
+<text x="773" y="161" font-size="11" opacity="0.33">m</text>
+<text x="815" y="161" font-size="12" opacity="0.20">4</text>
+<text x="860" y="161" font-size="18" opacity="0.24">@</text>
+<text x="906" y="161" font-size="15" opacity="0.20">A</text>
+<text x="954" y="161" font-size="10" opacity="0.28">1</text>
+<text x="996" y="161" font-size="18" opacity="0.19">∑</text>
+<text x="1030" y="161" font-size="12" opacity="0.26">L</text>
+<text x="1070" y="161" font-size="18" opacity="0.20">r</text>
+<text x="1122" y="161" font-size="18" opacity="0.27">f</text>
+<text x="1168" y="161" font-size="15" opacity="0.27">6</text>
+<text x="1217" y="161" font-size="15" opacity="0.30">S</text>
+<text x="1263" y="161" font-size="18" opacity="0.28">1</text>
+<text x="1321" y="161" font-size="10" opacity="0.22">D</text>
+<text x="1371" y="161" font-size="18" opacity="0.20">n</text>
+<text x="1422" y="161" font-size="12" opacity="0.25">∫</text>
+<text x="1478" y="161" font-size="13" opacity="0.33">→</text>
+<text x="1518" y="161" font-size="12" opacity="0.28">k</text>
+<text x="1555" y="161" font-size="18" opacity="0.34">h</text>
+<text x="1590" y="161" font-size="13" opacity="0.25">α</text>
+<text x="430" y="182" font-size="18" opacity="0.26">A</text>
+<text x="469" y="182" font-size="12" opacity="0.21">∂</text>
+<text x="516" y="182" font-size="18" opacity="0.28">√</text>
+<text x="560" y="182" font-size="15" opacity="0.28">B</text>
+<text x="592" y="182" font-size="18" opacity="0.26">Z</text>
+<text x="625" y="182" font-size="11" opacity="0.18">⊕</text>
+<text x="672" y="182" font-size="13" opacity="0.19">L</text>
+<text x="712" y="182" font-size="13" opacity="0.31">∞</text>
+<text x="768" y="182" font-size="11" opacity="0.24">2</text>
+<text x="825" y="182" font-size="18" opacity="0.29">Z</text>
+<text x="873" y="182" font-size="18" opacity="0.19">Ω</text>
+<text x="931" y="182" font-size="11" opacity="0.31">o</text>
+<text x="973" y="182" font-size="15" opacity="0.25">r</text>
+<text x="1006" y="182" font-size="15" opacity="0.19">I</text>
+<text x="1058" y="182" font-size="11" opacity="0.27">&amp;</text>
+<text x="1100" y="182" font-size="13" opacity="0.29">μ</text>
+<text x="1156" y="182" font-size="10" opacity="0.31">h</text>
+<text x="1191" y="182" font-size="12" opacity="0.29">m</text>
+<text x="1231" y="182" font-size="11" opacity="0.31">x</text>
+<text x="1274" y="182" font-size="10" opacity="0.29">h</text>
+<text x="1312" y="182" font-size="10" opacity="0.26">d</text>
+<text x="1352" y="182" font-size="13" opacity="0.31">x̄</text>
+<text x="1407" y="182" font-size="13" opacity="0.25">p</text>
+<text x="1459" y="182" font-size="15" opacity="0.31">9</text>
+<text x="1496" y="182" font-size="18" opacity="0.21">6</text>
+<text x="1548" y="182" font-size="12" opacity="0.30">I</text>
+<text x="439" y="203" font-size="15" opacity="0.24">%</text>
+<text x="484" y="203" font-size="10" opacity="0.23">D</text>
+<text x="541" y="203" font-size="18" opacity="0.22">z</text>
+<text x="590" y="203" font-size="11" opacity="0.18">R²</text>
+<text x="644" y="203" font-size="10" opacity="0.27">T</text>
+<text x="678" y="203" font-size="12" opacity="0.18">≈</text>
+<text x="725" y="203" font-size="18" opacity="0.20">n</text>
+<text x="758" y="203" font-size="10" opacity="0.17">θ</text>
+<text x="802" y="203" font-size="18" opacity="0.30">A</text>
+<text x="837" y="203" font-size="11" opacity="0.27">P</text>
+<text x="877" y="203" font-size="18" opacity="0.16">l</text>
+<text x="930" y="203" font-size="10" opacity="0.30">r</text>
+<text x="981" y="203" font-size="11" opacity="0.20">P</text>
+<text x="1038" y="203" font-size="10" opacity="0.23">f(x)</text>
+<text x="1088" y="203" font-size="13" opacity="0.17">Q</text>
+<text x="1125" y="203" font-size="13" opacity="0.25">7</text>
+<text x="1177" y="203" font-size="13" opacity="0.24">L</text>
+<text x="1221" y="203" font-size="11" opacity="0.18">R</text>
+<text x="1266" y="203" font-size="12" opacity="0.19">⊕</text>
+<text x="1309" y="203" font-size="11" opacity="0.22">6</text>
+<text x="1342" y="203" font-size="11" opacity="0.27">b</text>
+<text x="1375" y="203" font-size="15" opacity="0.22">6</text>
+<text x="1413" y="203" font-size="15" opacity="0.26">D</text>
+<text x="1463" y="203" font-size="10" opacity="0.26">W</text>
+<text x="1511" y="203" font-size="11" opacity="0.28">m</text>
+<text x="1556" y="203" font-size="15" opacity="0.28">i</text>
+<text x="1594" y="203" font-size="18" opacity="0.19">f(x)</text>
+<text x="430" y="224" font-size="15" opacity="0.18">@</text>
+<text x="468" y="224" font-size="11" opacity="0.26">{ }</text>
+<text x="526" y="224" font-size="11" opacity="0.15">√</text>
+<text x="564" y="224" font-size="18" opacity="0.28">K</text>
+<text x="602" y="224" font-size="12" opacity="0.29">d</text>
+<text x="637" y="224" font-size="15" opacity="0.20">u</text>
+<text x="694" y="224" font-size="18" opacity="0.27">S</text>
+<text x="749" y="224" font-size="15" opacity="0.28">q</text>
+<text x="807" y="224" font-size="11" opacity="0.24">v</text>
+<text x="845" y="224" font-size="11" opacity="0.20">if</text>
+<text x="892" y="224" font-size="13" opacity="0.18">A</text>
+<text x="949" y="224" font-size="13" opacity="0.28">Δ</text>
+<text x="1005" y="224" font-size="11" opacity="0.28">Δ</text>
+<text x="1060" y="224" font-size="18" opacity="0.26">if</text>
+<text x="1110" y="224" font-size="12" opacity="0.28">G</text>
+<text x="1145" y="224" font-size="18" opacity="0.21">g</text>
+<text x="1192" y="224" font-size="13" opacity="0.16">σ</text>
+<text x="1225" y="224" font-size="18" opacity="0.21">r</text>
+<text x="1277" y="224" font-size="12" opacity="0.16">R</text>
+<text x="1321" y="224" font-size="11" opacity="0.23">j</text>
+<text x="1369" y="224" font-size="12" opacity="0.27">i</text>
+<text x="1404" y="224" font-size="11" opacity="0.22">@</text>
+<text x="1455" y="224" font-size="12" opacity="0.25">α</text>
+<text x="1492" y="224" font-size="11" opacity="0.26">n</text>
+<text x="1538" y="224" font-size="13" opacity="0.21">if</text>
+<text x="1583" y="224" font-size="18" opacity="0.27">if</text>
+<text x="439" y="245" font-size="18" opacity="0.26">∴</text>
+<text x="477" y="245" font-size="18" opacity="0.19">α</text>
+<text x="512" y="245" font-size="11" opacity="0.20">Y</text>
+<text x="556" y="245" font-size="10" opacity="0.17">C</text>
+<text x="612" y="245" font-size="13" opacity="0.27">%</text>
+<text x="660" y="245" font-size="11" opacity="0.19">W</text>
+<text x="701" y="245" font-size="18" opacity="0.21">μ</text>
+<text x="755" y="245" font-size="18" opacity="0.19">n</text>
+<text x="793" y="245" font-size="10" opacity="0.25">i</text>
+<text x="827" y="245" font-size="11" opacity="0.27">I</text>
+<text x="863" y="245" font-size="11" opacity="0.17">Z</text>
+<text x="905" y="245" font-size="18" opacity="0.24">Ω</text>
+<text x="950" y="245" font-size="15" opacity="0.19">&lt;/&gt;</text>
+<text x="1003" y="245" font-size="11" opacity="0.28">j</text>
+<text x="1041" y="245" font-size="11" opacity="0.26">4</text>
+<text x="1096" y="245" font-size="13" opacity="0.14">1</text>
+<text x="1144" y="245" font-size="15" opacity="0.21">z</text>
+<text x="1197" y="245" font-size="13" opacity="0.14">O</text>
+<text x="1229" y="245" font-size="10" opacity="0.26">n</text>
+<text x="1275" y="245" font-size="15" opacity="0.26">≈</text>
+<text x="1327" y="245" font-size="11" opacity="0.14">M</text>
+<text x="1364" y="245" font-size="12" opacity="0.19">∂</text>
+<text x="1414" y="245" font-size="18" opacity="0.18">i</text>
+<text x="1453" y="245" font-size="12" opacity="0.26">L</text>
+<text x="1487" y="245" font-size="18" opacity="0.14">9</text>
+<text x="1519" y="245" font-size="11" opacity="0.16">y</text>
+<text x="1562" y="245" font-size="11" opacity="0.20">y</text>
+<text x="1596" y="245" font-size="10" opacity="0.23">for</text>
+<text x="430" y="266" font-size="11" opacity="0.19">@</text>
+<text x="482" y="266" font-size="13" opacity="0.22">3</text>
+<text x="538" y="266" font-size="12" opacity="0.21">T</text>
+<text x="575" y="266" font-size="10" opacity="0.15">Ω</text>
+<text x="611" y="266" font-size="11" opacity="0.26">U</text>
+<text x="644" y="266" font-size="15" opacity="0.26">I</text>
+<text x="680" y="266" font-size="11" opacity="0.16">7</text>
+<text x="717" y="266" font-size="10" opacity="0.26">T</text>
+<text x="749" y="266" font-size="10" opacity="0.23">θ</text>
+<text x="797" y="266" font-size="11" opacity="0.14">c</text>
+<text x="855" y="266" font-size="18" opacity="0.20">z</text>
+<text x="891" y="266" font-size="15" opacity="0.25">β</text>
+<text x="928" y="266" font-size="13" opacity="0.17">x̄</text>
+<text x="968" y="266" font-size="10" opacity="0.24">h</text>
+<text x="1023" y="266" font-size="10" opacity="0.23">if</text>
+<text x="1079" y="266" font-size="18" opacity="0.18">d</text>
+<text x="1117" y="266" font-size="12" opacity="0.12">6</text>
+<text x="1151" y="266" font-size="13" opacity="0.21">s</text>
+<text x="1202" y="266" font-size="18" opacity="0.12">1</text>
+<text x="1242" y="266" font-size="13" opacity="0.24">Δ</text>
+<text x="1287" y="266" font-size="18" opacity="0.14">7</text>
+<text x="1344" y="266" font-size="13" opacity="0.25">U</text>
+<text x="1381" y="266" font-size="18" opacity="0.13">V</text>
+<text x="1419" y="266" font-size="13" opacity="0.14">d</text>
+<text x="1460" y="266" font-size="15" opacity="0.15">Z</text>
+<text x="1495" y="266" font-size="12" opacity="0.13">B</text>
+<text x="1533" y="266" font-size="18" opacity="0.25">h</text>
+<text x="1572" y="266" font-size="18" opacity="0.17">F</text>
+<text x="439" y="287" font-size="18" opacity="0.22">6</text>
+<text x="487" y="287" font-size="11" opacity="0.14">6</text>
+<text x="529" y="287" font-size="13" opacity="0.17">w</text>
+<text x="566" y="287" font-size="10" opacity="0.15">§</text>
+<text x="624" y="287" font-size="15" opacity="0.13">F</text>
+<text x="669" y="287" font-size="11" opacity="0.11">d</text>
+<text x="718" y="287" font-size="15" opacity="0.11">@</text>
+<text x="765" y="287" font-size="11" opacity="0.15">√</text>
+<text x="808" y="287" font-size="15" opacity="0.17">p&lt;.05</text>
+<text x="880" y="287" font-size="13" opacity="0.19">o</text>
+<text x="927" y="287" font-size="15" opacity="0.15">3</text>
+<text x="983" y="287" font-size="12" opacity="0.22">§</text>
+<text x="1016" y="287" font-size="11" opacity="0.14">o</text>
+<text x="1070" y="287" font-size="18" opacity="0.13">F</text>
+<text x="1127" y="287" font-size="11" opacity="0.21">S</text>
+<text x="1182" y="287" font-size="18" opacity="0.24">5</text>
+<text x="1231" y="287" font-size="18" opacity="0.11">∞</text>
+<text x="1281" y="287" font-size="12" opacity="0.25">0</text>
+<text x="1324" y="287" font-size="10" opacity="0.11">j</text>
+<text x="1361" y="287" font-size="13" opacity="0.18">&lt;/&gt;</text>
+<text x="1411" y="287" font-size="13" opacity="0.20">I</text>
+<text x="1454" y="287" font-size="11" opacity="0.24">l</text>
+<text x="1509" y="287" font-size="10" opacity="0.19">≠</text>
+<text x="1557" y="287" font-size="15" opacity="0.14">B</text>
+<text x="1595" y="287" font-size="11" opacity="0.24">6</text>
+<text x="430" y="308" font-size="10" opacity="0.22">x</text>
+<text x="484" y="308" font-size="13" opacity="0.22">l</text>
+<text x="524" y="308" font-size="18" opacity="0.23">f</text>
+<text x="561" y="308" font-size="13" opacity="0.17">&amp;</text>
+<text x="616" y="308" font-size="12" opacity="0.22">§</text>
+<text x="672" y="308" font-size="11" opacity="0.21">E</text>
+<text x="727" y="308" font-size="10" opacity="0.12">w</text>
+<text x="779" y="308" font-size="15" opacity="0.13">M</text>
+<text x="830" y="308" font-size="11" opacity="0.15">V</text>
+<text x="862" y="308" font-size="10" opacity="0.09">s</text>
+<text x="914" y="308" font-size="15" opacity="0.16">2</text>
+<text x="947" y="308" font-size="12" opacity="0.17">Q</text>
+<text x="996" y="308" font-size="15" opacity="0.22">x̄</text>
+<text x="1057" y="308" font-size="11" opacity="0.13">μ</text>
+<text x="1095" y="308" font-size="11" opacity="0.15">7</text>
+<text x="1143" y="308" font-size="13" opacity="0.12">β</text>
+<text x="1177" y="308" font-size="12" opacity="0.13">f(x)</text>
+<text x="1243" y="308" font-size="18" opacity="0.12">≈</text>
+<text x="1278" y="308" font-size="10" opacity="0.22">≠</text>
+<text x="1318" y="308" font-size="15" opacity="0.18">u</text>
+<text x="1357" y="308" font-size="11" opacity="0.11">⊕</text>
+<text x="1395" y="308" font-size="13" opacity="0.23">π</text>
+<text x="1432" y="308" font-size="15" opacity="0.11">R²</text>
+<text x="1487" y="308" font-size="11" opacity="0.21">w</text>
+<text x="1534" y="308" font-size="12" opacity="0.13">x</text>
+<text x="1589" y="308" font-size="11" opacity="0.16">P</text>
+<text x="439" y="329" font-size="12" opacity="0.15">C</text>
+<text x="487" y="329" font-size="18" opacity="0.15">for</text>
+<text x="552" y="329" font-size="11" opacity="0.11">f</text>
+<text x="594" y="329" font-size="10" opacity="0.11">n</text>
+<text x="637" y="329" font-size="18" opacity="0.11">9</text>
+<text x="694" y="329" font-size="11" opacity="0.09">Y</text>
+<text x="731" y="329" font-size="11" opacity="0.22">C</text>
+<text x="783" y="329" font-size="13" opacity="0.07">p</text>
+<text x="815" y="329" font-size="18" opacity="0.09">%</text>
+<text x="847" y="329" font-size="11" opacity="0.10">R²</text>
+<text x="907" y="329" font-size="15" opacity="0.12">X</text>
+<text x="950" y="329" font-size="10" opacity="0.15">≈</text>
+<text x="983" y="329" font-size="15" opacity="0.10">P</text>
+<text x="1033" y="329" font-size="11" opacity="0.12">O</text>
+<text x="1080" y="329" font-size="13" opacity="0.20">m</text>
+<text x="1130" y="329" font-size="12" opacity="0.09">G</text>
+<text x="1164" y="329" font-size="15" opacity="0.13">I</text>
+<text x="1201" y="329" font-size="10" opacity="0.19">c</text>
+<text x="1242" y="329" font-size="10" opacity="0.10">⊕</text>
+<text x="1292" y="329" font-size="18" opacity="0.12">Y</text>
+<text x="1331" y="329" font-size="11" opacity="0.22">M</text>
+<text x="1365" y="329" font-size="15" opacity="0.14">4</text>
+<text x="1416" y="329" font-size="15" opacity="0.15">6</text>
+<text x="1454" y="329" font-size="10" opacity="0.21">&lt;/&gt;</text>
+<text x="1522" y="329" font-size="13" opacity="0.15">Δ</text>
+<text x="1572" y="329" font-size="15" opacity="0.11">K</text>
+<text x="430" y="350" font-size="18" opacity="0.15">6</text>
+<text x="465" y="350" font-size="11" opacity="0.06">U</text>
+<text x="511" y="350" font-size="10" opacity="0.14">P</text>
+<text x="553" y="350" font-size="11" opacity="0.10">#</text>
+<text x="593" y="350" font-size="15" opacity="0.20">9</text>
+<text x="631" y="350" font-size="12" opacity="0.08">2</text>
+<text x="663" y="350" font-size="10" opacity="0.08">N</text>
+<text x="707" y="350" font-size="12" opacity="0.07">k</text>
+<text x="740" y="350" font-size="12" opacity="0.15">∫</text>
+<text x="780" y="350" font-size="12" opacity="0.06">5</text>
+<text x="827" y="350" font-size="10" opacity="0.18">%</text>
+<text x="866" y="350" font-size="18" opacity="0.17">O</text>
+<text x="911" y="350" font-size="15" opacity="0.14">M</text>
+<text x="961" y="350" font-size="15" opacity="0.18">Q</text>
+<text x="1007" y="350" font-size="12" opacity="0.08">6</text>
+<text x="1043" y="350" font-size="12" opacity="0.09">¶</text>
+<text x="1096" y="350" font-size="11" opacity="0.09">for</text>
+<text x="1144" y="350" font-size="11" opacity="0.10">p</text>
+<text x="1202" y="350" font-size="12" opacity="0.08">π</text>
+<text x="1245" y="350" font-size="15" opacity="0.14">5</text>
+<text x="1300" y="350" font-size="12" opacity="0.16">K</text>
+<text x="1337" y="350" font-size="18" opacity="0.17">g</text>
+<text x="1391" y="350" font-size="10" opacity="0.13">B</text>
+<text x="1438" y="350" font-size="11" opacity="0.16">F</text>
+<text x="1479" y="350" font-size="10" opacity="0.13">A</text>
+<text x="1531" y="350" font-size="10" opacity="0.20">√</text>
+<text x="1575" y="350" font-size="13" opacity="0.19">%</text>
+<text x="439" y="371" font-size="18" opacity="0.06">∫</text>
+<text x="490" y="371" font-size="18" opacity="0.19">I</text>
+<text x="547" y="371" font-size="11" opacity="0.16">S</text>
+<text x="602" y="371" font-size="12" opacity="0.06">p</text>
+<text x="639" y="371" font-size="13" opacity="0.08">p&lt;.05</text>
+<text x="710" y="371" font-size="10" opacity="0.08">N</text>
+<text x="759" y="371" font-size="11" opacity="0.15">Z</text>
+<text x="807" y="371" font-size="18" opacity="0.09">π</text>
+<text x="852" y="371" font-size="12" opacity="0.11">B</text>
+<text x="908" y="371" font-size="13" opacity="0.05">∂</text>
+<text x="946" y="371" font-size="13" opacity="0.09">a</text>
+<text x="998" y="371" font-size="10" opacity="0.08">⊕</text>
+<text x="1056" y="371" font-size="15" opacity="0.12">U</text>
+<text x="1088" y="371" font-size="11" opacity="0.11">→</text>
+<text x="1138" y="371" font-size="10" opacity="0.09">m</text>
+<text x="1172" y="371" font-size="15" opacity="0.10">7</text>
+<text x="1224" y="371" font-size="10" opacity="0.10">f(x)</text>
+<text x="1285" y="371" font-size="11" opacity="0.06">§</text>
+<text x="1328" y="371" font-size="18" opacity="0.16">μ</text>
+<text x="1370" y="371" font-size="15" opacity="0.08">β</text>
+<text x="1414" y="371" font-size="12" opacity="0.13">G</text>
+<text x="1466" y="371" font-size="15" opacity="0.14">&amp;</text>
+<text x="1503" y="371" font-size="13" opacity="0.07">O</text>
+<text x="1538" y="371" font-size="15" opacity="0.11">Δ</text>
+<text x="1590" y="371" font-size="11" opacity="0.13">p</text>
+<text x="430" y="392" font-size="12" opacity="0.11">v</text>
+<text x="471" y="392" font-size="11" opacity="0.11">4</text>
+<text x="509" y="392" font-size="18" opacity="0.14">k</text>
+<text x="541" y="392" font-size="10" opacity="0.09">¶</text>
+<text x="585" y="392" font-size="12" opacity="0.20">d</text>
+<text x="640" y="392" font-size="11" opacity="0.16">R</text>
+<text x="678" y="392" font-size="18" opacity="0.09">k</text>
+<text x="711" y="392" font-size="12" opacity="0.09">4</text>
+<text x="749" y="392" font-size="12" opacity="0.09">o</text>
+<text x="800" y="392" font-size="15" opacity="0.17">O</text>
+<text x="839" y="392" font-size="12" opacity="0.11">∞</text>
+<text x="889" y="392" font-size="13" opacity="0.11">≈</text>
+<text x="932" y="392" font-size="11" opacity="0.11">k</text>
+<text x="978" y="392" font-size="15" opacity="0.17">→</text>
+<text x="1031" y="392" font-size="12" opacity="0.19">g</text>
+<text x="1063" y="392" font-size="12" opacity="0.07">R²</text>
+<text x="1105" y="392" font-size="11" opacity="0.18">7</text>
+<text x="1150" y="392" font-size="18" opacity="0.10">J</text>
+<text x="1201" y="392" font-size="12" opacity="0.09">&lt;/&gt;</text>
+<text x="1253" y="392" font-size="10" opacity="0.12">{ }</text>
+<text x="1301" y="392" font-size="15" opacity="0.13">o</text>
+<text x="1358" y="392" font-size="11" opacity="0.18">f</text>
+<text x="1402" y="392" font-size="12" opacity="0.13">β</text>
+<text x="1447" y="392" font-size="18" opacity="0.09">d</text>
+<text x="1501" y="392" font-size="18" opacity="0.05">∂</text>
+<text x="1539" y="392" font-size="18" opacity="0.15">Ω</text>
+<text x="1573" y="392" font-size="11" opacity="0.10">v</text>
+<text x="439" y="413" font-size="12" opacity="0.14">l</text>
+<text x="486" y="413" font-size="15" opacity="0.10">b</text>
+<text x="524" y="413" font-size="15" opacity="0.06">a</text>
+<text x="569" y="413" font-size="10" opacity="0.19">&amp;</text>
+<text x="624" y="413" font-size="12" opacity="0.13">z</text>
+<text x="664" y="413" font-size="10" opacity="0.16">a</text>
+<text x="703" y="413" font-size="11" opacity="0.10">α</text>
+<text x="745" y="413" font-size="13" opacity="0.10">s</text>
+<text x="792" y="413" font-size="12" opacity="0.13">λ</text>
+<text x="844" y="413" font-size="15" opacity="0.16">¶</text>
+<text x="898" y="413" font-size="11" opacity="0.06">j</text>
+<text x="933" y="413" font-size="10" opacity="0.12">∑</text>
+<text x="986" y="413" font-size="15" opacity="0.20">r</text>
+<text x="1025" y="413" font-size="13" opacity="0.11">D</text>
+<text x="1072" y="413" font-size="11" opacity="0.15">S</text>
+<text x="1104" y="413" font-size="10" opacity="0.16">t</text>
+<text x="1162" y="413" font-size="15" opacity="0.15">i</text>
+<text x="1194" y="413" font-size="13" opacity="0.18">J</text>
+<text x="1246" y="413" font-size="11" opacity="0.08">Q</text>
+<text x="1290" y="413" font-size="10" opacity="0.17">O</text>
+<text x="1345" y="413" font-size="11" opacity="0.17">8</text>
+<text x="1381" y="413" font-size="18" opacity="0.19">{ }</text>
+<text x="1450" y="413" font-size="10" opacity="0.05">L</text>
+<text x="1495" y="413" font-size="15" opacity="0.10">S</text>
+<text x="1529" y="413" font-size="12" opacity="0.11">R</text>
+<text x="1582" y="413" font-size="15" opacity="0.17">√</text>
+<text x="430" y="434" font-size="18" opacity="0.15">→</text>
+<text x="471" y="434" font-size="11" opacity="0.17">λ</text>
+<text x="512" y="434" font-size="11" opacity="0.05">P</text>
+<text x="550" y="434" font-size="11" opacity="0.13">Δ</text>
+<text x="600" y="434" font-size="15" opacity="0.09">p</text>
+<text x="640" y="434" font-size="13" opacity="0.12">j</text>
+<text x="677" y="434" font-size="18" opacity="0.06">P</text>
+<text x="709" y="434" font-size="18" opacity="0.13">J</text>
+<text x="744" y="434" font-size="10" opacity="0.08">p&lt;.05</text>
+<text x="817" y="434" font-size="10" opacity="0.19">n</text>
+<text x="874" y="434" font-size="11" opacity="0.08">&lt;/&gt;</text>
+<text x="921" y="434" font-size="12" opacity="0.14">m</text>
+<text x="967" y="434" font-size="15" opacity="0.07">Y</text>
+<text x="1006" y="434" font-size="13" opacity="0.06">W</text>
+<text x="1060" y="434" font-size="12" opacity="0.17">s</text>
+<text x="1107" y="434" font-size="11" opacity="0.14">R²</text>
+<text x="1159" y="434" font-size="11" opacity="0.16">O</text>
+<text x="1201" y="434" font-size="10" opacity="0.08">∴</text>
+<text x="1236" y="434" font-size="12" opacity="0.15">if</text>
+<text x="1280" y="434" font-size="15" opacity="0.17">k</text>
+<text x="1328" y="434" font-size="18" opacity="0.05">P</text>
+<text x="1386" y="434" font-size="15" opacity="0.09">f</text>
+<text x="1426" y="434" font-size="11" opacity="0.11">Q</text>
+<text x="1482" y="434" font-size="13" opacity="0.13">k</text>
+<text x="1537" y="434" font-size="10" opacity="0.20">y</text>
+<text x="1580" y="434" font-size="15" opacity="0.11">λ</text>
+<text x="439" y="455" font-size="13" opacity="0.07">3</text>
+<text x="496" y="455" font-size="10" opacity="0.13">l</text>
+<text x="532" y="455" font-size="11" opacity="0.05">v</text>
+<text x="586" y="455" font-size="11" opacity="0.14">σ</text>
+<text x="641" y="455" font-size="11" opacity="0.10">∫</text>
+<text x="673" y="455" font-size="15" opacity="0.06">o</text>
+<text x="720" y="455" font-size="15" opacity="0.11">if</text>
+<text x="778" y="455" font-size="18" opacity="0.15">≠</text>
+<text x="825" y="455" font-size="10" opacity="0.06">s</text>
+<text x="873" y="455" font-size="12" opacity="0.18">Ω</text>
+<text x="913" y="455" font-size="15" opacity="0.17">#</text>
+<text x="953" y="455" font-size="12" opacity="0.16">f(x)</text>
+<text x="1014" y="455" font-size="10" opacity="0.18">π</text>
+<text x="1047" y="455" font-size="15" opacity="0.14">3</text>
+<text x="1099" y="455" font-size="10" opacity="0.12">R</text>
+<text x="1151" y="455" font-size="10" opacity="0.19">π</text>
+<text x="1186" y="455" font-size="10" opacity="0.18">g</text>
+<text x="1230" y="455" font-size="18" opacity="0.12">a</text>
+<text x="1285" y="455" font-size="18" opacity="0.09">9</text>
+<text x="1320" y="455" font-size="13" opacity="0.06">R²</text>
+<text x="1376" y="455" font-size="11" opacity="0.18">R</text>
+<text x="1413" y="455" font-size="18" opacity="0.10">K</text>
+<text x="1446" y="455" font-size="18" opacity="0.12">i</text>
+<text x="1488" y="455" font-size="11" opacity="0.11">%</text>
+<text x="1521" y="455" font-size="10" opacity="0.12">¶</text>
+<text x="1564" y="455" font-size="11" opacity="0.05">y</text>
+<text x="430" y="476" font-size="18" opacity="0.12">∂</text>
+<text x="462" y="476" font-size="18" opacity="0.19">for</text>
+<text x="511" y="476" font-size="18" opacity="0.15">β</text>
+<text x="563" y="476" font-size="12" opacity="0.07">7</text>
+<text x="619" y="476" font-size="10" opacity="0.13">6</text>
+<text x="674" y="476" font-size="11" opacity="0.16">J</text>
+<text x="713" y="476" font-size="13" opacity="0.12">0</text>
+<text x="758" y="476" font-size="10" opacity="0.13">E</text>
+<text x="813" y="476" font-size="11" opacity="0.09">§</text>
+<text x="869" y="476" font-size="15" opacity="0.11">Y</text>
+<text x="921" y="476" font-size="11" opacity="0.07">6</text>
+<text x="954" y="476" font-size="10" opacity="0.13">∂</text>
+<text x="998" y="476" font-size="18" opacity="0.11">{ }</text>
+<text x="1066" y="476" font-size="10" opacity="0.18">G</text>
+<text x="1100" y="476" font-size="12" opacity="0.13">n</text>
+<text x="1154" y="476" font-size="11" opacity="0.18">O</text>
+<text x="1191" y="476" font-size="10" opacity="0.16">H</text>
+<text x="1242" y="476" font-size="10" opacity="0.09">z</text>
+<text x="1288" y="476" font-size="11" opacity="0.20">f(x)</text>
+<text x="1356" y="476" font-size="10" opacity="0.18">9</text>
+<text x="1401" y="476" font-size="13" opacity="0.06">K</text>
+<text x="1446" y="476" font-size="18" opacity="0.19">5</text>
+<text x="1497" y="476" font-size="15" opacity="0.15">0</text>
+<text x="1548" y="476" font-size="11" opacity="0.17">6</text>
+<text x="1593" y="476" font-size="12" opacity="0.17">Z</text>
+<text x="439" y="497" font-size="10" opacity="0.14">π</text>
+<text x="476" y="497" font-size="18" opacity="0.06">C</text>
+<text x="528" y="497" font-size="12" opacity="0.10">for</text>
+<text x="578" y="497" font-size="18" opacity="0.13">i</text>
+<text x="614" y="497" font-size="12" opacity="0.06">N</text>
+<text x="653" y="497" font-size="11" opacity="0.19">y</text>
+<text x="701" y="497" font-size="15" opacity="0.09">N</text>
+<text x="747" y="497" font-size="11" opacity="0.14">{ }</text>
+<text x="804" y="497" font-size="11" opacity="0.12">s</text>
+<text x="842" y="497" font-size="11" opacity="0.12">z</text>
+<text x="879" y="497" font-size="15" opacity="0.09">e</text>
+<text x="929" y="497" font-size="12" opacity="0.08">Δ</text>
+<text x="967" y="497" font-size="13" opacity="0.08">7</text>
+<text x="1009" y="497" font-size="11" opacity="0.09">σ</text>
+<text x="1043" y="497" font-size="10" opacity="0.07">f(x)</text>
+<text x="1106" y="497" font-size="18" opacity="0.11">A</text>
+<text x="1163" y="497" font-size="11" opacity="0.07">Ω</text>
+<text x="1221" y="497" font-size="15" opacity="0.06">1</text>
+<text x="1272" y="497" font-size="15" opacity="0.09">8</text>
+<text x="1319" y="497" font-size="12" opacity="0.10">f</text>
+<text x="1368" y="497" font-size="11" opacity="0.19">Δ</text>
+<text x="1407" y="497" font-size="15" opacity="0.10">v</text>
+<text x="1457" y="497" font-size="11" opacity="0.11">∂</text>
+<text x="1489" y="497" font-size="12" opacity="0.06">p</text>
+<text x="1539" y="497" font-size="15" opacity="0.16">Ω</text>
+<text x="1593" y="497" font-size="10" opacity="0.05">E</text>
+<text x="430" y="518" font-size="10" opacity="0.06">&lt;/&gt;</text>
+<text x="487" y="518" font-size="15" opacity="0.11">√</text>
+<text x="539" y="518" font-size="11" opacity="0.10">E</text>
+<text x="594" y="518" font-size="11" opacity="0.14">p</text>
+<text x="640" y="518" font-size="10" opacity="0.13">Z</text>
+<text x="672" y="518" font-size="18" opacity="0.12">q</text>
+<text x="716" y="518" font-size="18" opacity="0.08">M</text>
+<text x="758" y="518" font-size="10" opacity="0.18">%</text>
+<text x="807" y="518" font-size="18" opacity="0.19">@</text>
+<text x="854" y="518" font-size="11" opacity="0.08">W</text>
+<text x="890" y="518" font-size="18" opacity="0.17">f(x)</text>
+<text x="943" y="518" font-size="11" opacity="0.20">∫</text>
+<text x="985" y="518" font-size="15" opacity="0.06">b</text>
+<text x="1021" y="518" font-size="10" opacity="0.13">p</text>
+<text x="1075" y="518" font-size="18" opacity="0.15">G</text>
+<text x="1128" y="518" font-size="11" opacity="0.19">μ</text>
+<text x="1166" y="518" font-size="13" opacity="0.11">H</text>
+<text x="1220" y="518" font-size="13" opacity="0.14">4</text>
+<text x="1254" y="518" font-size="12" opacity="0.12">U</text>
+<text x="1294" y="518" font-size="10" opacity="0.13">C</text>
+<text x="1351" y="518" font-size="15" opacity="0.08">9</text>
+<text x="1391" y="518" font-size="13" opacity="0.09">d</text>
+<text x="1447" y="518" font-size="13" opacity="0.16">≠</text>
+<text x="1479" y="518" font-size="18" opacity="0.17">S</text>
+<text x="1518" y="518" font-size="10" opacity="0.07">P</text>
+<text x="1550" y="518" font-size="12" opacity="0.16">θ</text>
+<text x="439" y="539" font-size="13" opacity="0.16">λ</text>
+<text x="489" y="539" font-size="11" opacity="0.19">g</text>
+<text x="539" y="539" font-size="13" opacity="0.20">E</text>
+<text x="576" y="539" font-size="11" opacity="0.10">σ</text>
+<text x="615" y="539" font-size="18" opacity="0.14">&amp;</text>
+<text x="662" y="539" font-size="18" opacity="0.14">m</text>
+<text x="720" y="539" font-size="11" opacity="0.10">2</text>
+<text x="762" y="539" font-size="12" opacity="0.11">B</text>
+<text x="806" y="539" font-size="10" opacity="0.11">0</text>
+<text x="863" y="539" font-size="13" opacity="0.11">b</text>
+<text x="904" y="539" font-size="13" opacity="0.10">if</text>
+<text x="955" y="539" font-size="10" opacity="0.13">Ω</text>
+<text x="993" y="539" font-size="10" opacity="0.14">6</text>
+<text x="1044" y="539" font-size="13" opacity="0.14">c</text>
+<text x="1088" y="539" font-size="18" opacity="0.19">K</text>
+<text x="1138" y="539" font-size="11" opacity="0.18">d</text>
+<text x="1170" y="539" font-size="15" opacity="0.11">0</text>
+<text x="1208" y="539" font-size="13" opacity="0.15">r</text>
+<text x="1241" y="539" font-size="12" opacity="0.15">O</text>
+<text x="1283" y="539" font-size="18" opacity="0.05">2</text>
+<text x="1340" y="539" font-size="15" opacity="0.14">f</text>
+<text x="1395" y="539" font-size="18" opacity="0.18">4</text>
+<text x="1446" y="539" font-size="12" opacity="0.10">α</text>
+<text x="1483" y="539" font-size="18" opacity="0.13">≈</text>
+<text x="1537" y="539" font-size="15" opacity="0.12">if</text>
+<text x="1595" y="539" font-size="10" opacity="0.18">∞</text>
+<text x="430" y="560" font-size="11" opacity="0.12">p&lt;.05</text>
+<text x="490" y="560" font-size="11" opacity="0.13">∫</text>
+<text x="525" y="560" font-size="11" opacity="0.06">O</text>
+<text x="574" y="560" font-size="12" opacity="0.07">x̄</text>
+<text x="621" y="560" font-size="15" opacity="0.08">≠</text>
+<text x="660" y="560" font-size="15" opacity="0.07">e</text>
+<text x="706" y="560" font-size="15" opacity="0.15">√</text>
+<text x="750" y="560" font-size="18" opacity="0.19">m</text>
+<text x="790" y="560" font-size="10" opacity="0.14">9</text>
+<text x="829" y="560" font-size="12" opacity="0.15">@</text>
+<text x="871" y="560" font-size="13" opacity="0.11">R</text>
+<text x="918" y="560" font-size="10" opacity="0.13">D</text>
+<text x="972" y="560" font-size="15" opacity="0.06">§</text>
+<text x="1025" y="560" font-size="10" opacity="0.09">σ</text>
+<text x="1064" y="560" font-size="13" opacity="0.19">{ }</text>
+<text x="1134" y="560" font-size="18" opacity="0.18">l</text>
+<text x="1171" y="560" font-size="15" opacity="0.06">a</text>
+<text x="1217" y="560" font-size="13" opacity="0.19">T</text>
+<text x="1260" y="560" font-size="13" opacity="0.08">≠</text>
+<text x="1293" y="560" font-size="13" opacity="0.13">G</text>
+<text x="1338" y="560" font-size="10" opacity="0.11">@</text>
+<text x="1392" y="560" font-size="11" opacity="0.10">B</text>
+<text x="1444" y="560" font-size="15" opacity="0.17">≈</text>
+<text x="1500" y="560" font-size="11" opacity="0.17">7</text>
+<text x="1548" y="560" font-size="12" opacity="0.15">s</text>
+<text x="1585" y="560" font-size="13" opacity="0.10">∫</text>
+<text x="439" y="581" font-size="11" opacity="0.13">l</text>
+<text x="492" y="581" font-size="10" opacity="0.15">g</text>
+<text x="528" y="581" font-size="13" opacity="0.14">N</text>
+<text x="568" y="581" font-size="11" opacity="0.16">3</text>
+<text x="610" y="581" font-size="12" opacity="0.18">O</text>
+<text x="663" y="581" font-size="10" opacity="0.16">3</text>
+<text x="716" y="581" font-size="11" opacity="0.20">4</text>
+<text x="750" y="581" font-size="18" opacity="0.12">V</text>
+<text x="805" y="581" font-size="12" opacity="0.16">1</text>
+<text x="842" y="581" font-size="13" opacity="0.06">E</text>
+<text x="895" y="581" font-size="15" opacity="0.13">s</text>
+<text x="951" y="581" font-size="15" opacity="0.15">g</text>
+<text x="988" y="581" font-size="13" opacity="0.15">o</text>
+<text x="1044" y="581" font-size="18" opacity="0.11">%</text>
+<text x="1088" y="581" font-size="10" opacity="0.07">q</text>
+<text x="1127" y="581" font-size="10" opacity="0.10">#</text>
+<text x="1177" y="581" font-size="18" opacity="0.08">¶</text>
+<text x="1209" y="581" font-size="11" opacity="0.08">for</text>
+<text x="1265" y="581" font-size="18" opacity="0.09">w</text>
+<text x="1301" y="581" font-size="10" opacity="0.15">U</text>
+<text x="1347" y="581" font-size="11" opacity="0.15">l</text>
+<text x="1394" y="581" font-size="12" opacity="0.09">α</text>
+<text x="1435" y="581" font-size="10" opacity="0.07">F</text>
+<text x="1476" y="581" font-size="12" opacity="0.06">W</text>
+<text x="1515" y="581" font-size="18" opacity="0.14">K</text>
+<text x="1563" y="581" font-size="11" opacity="0.14">o</text>
+<text x="430" y="602" font-size="12" opacity="0.19">μ</text>
+<text x="463" y="602" font-size="11" opacity="0.09">6</text>
+<text x="509" y="602" font-size="18" opacity="0.20">R</text>
+<text x="548" y="602" font-size="12" opacity="0.11">j</text>
+<text x="603" y="602" font-size="13" opacity="0.16">@</text>
+<text x="644" y="602" font-size="10" opacity="0.15">h</text>
+<text x="677" y="602" font-size="11" opacity="0.14">x̄</text>
+<text x="736" y="602" font-size="13" opacity="0.15">θ</text>
+<text x="791" y="602" font-size="10" opacity="0.20">→</text>
+<text x="825" y="602" font-size="15" opacity="0.18">u</text>
+<text x="875" y="602" font-size="15" opacity="0.14">o</text>
+<text x="919" y="602" font-size="13" opacity="0.14">J</text>
+<text x="964" y="602" font-size="13" opacity="0.19">h</text>
+<text x="1005" y="602" font-size="11" opacity="0.10">A</text>
+<text x="1061" y="602" font-size="11" opacity="0.19">6</text>
+<text x="1118" y="602" font-size="15" opacity="0.06">∞</text>
+<text x="1161" y="602" font-size="12" opacity="0.07">B</text>
+<text x="1209" y="602" font-size="15" opacity="0.14">≠</text>
+<text x="1264" y="602" font-size="18" opacity="0.14">if</text>
+<text x="1306" y="602" font-size="13" opacity="0.09">z</text>
+<text x="1342" y="602" font-size="15" opacity="0.12">e</text>
+<text x="1375" y="602" font-size="12" opacity="0.13">∑</text>
+<text x="1420" y="602" font-size="12" opacity="0.17">M</text>
+<text x="1460" y="602" font-size="11" opacity="0.13">u</text>
+<text x="1514" y="602" font-size="11" opacity="0.07">7</text>
+<text x="1546" y="602" font-size="11" opacity="0.08">⊕</text>
+<text x="1589" y="602" font-size="18" opacity="0.16">H</text>
+<text x="439" y="623" font-size="13" opacity="0.09">E</text>
+<text x="489" y="623" font-size="11" opacity="0.10">for</text>
+<text x="557" y="623" font-size="18" opacity="0.10">∂</text>
+<text x="606" y="623" font-size="12" opacity="0.18">y</text>
+<text x="641" y="623" font-size="15" opacity="0.09">∑</text>
+<text x="686" y="623" font-size="11" opacity="0.16">R</text>
+<text x="740" y="623" font-size="13" opacity="0.11">7</text>
+<text x="791" y="623" font-size="12" opacity="0.19">D</text>
+<text x="839" y="623" font-size="12" opacity="0.18">C</text>
+<text x="895" y="623" font-size="11" opacity="0.05">∑</text>
+<text x="938" y="623" font-size="13" opacity="0.17">θ</text>
+<text x="971" y="623" font-size="12" opacity="0.07">X</text>
+<text x="1022" y="623" font-size="13" opacity="0.08">p</text>
+<text x="1065" y="623" font-size="11" opacity="0.19">b</text>
+<text x="1117" y="623" font-size="11" opacity="0.06">≠</text>
+<text x="1154" y="623" font-size="12" opacity="0.06">J</text>
+<text x="1199" y="623" font-size="15" opacity="0.15">π</text>
+<text x="1240" y="623" font-size="12" opacity="0.13">#</text>
+<text x="1274" y="623" font-size="11" opacity="0.19">3</text>
+<text x="1311" y="623" font-size="10" opacity="0.20">X</text>
+<text x="1353" y="623" font-size="11" opacity="0.18">Δ</text>
+<text x="1406" y="623" font-size="11" opacity="0.18">b</text>
+<text x="1441" y="623" font-size="10" opacity="0.11">x</text>
+<text x="1491" y="623" font-size="11" opacity="0.18">c</text>
+<text x="1536" y="623" font-size="11" opacity="0.19">≠</text>
+<text x="1588" y="623" font-size="12" opacity="0.07">E</text>
+</g>
+<path d="M 1068 340 C 1110 330, 1135 292, 1125 252 C 1112 205, 1060 190, 1020 215 C 1080 205, 1108 240, 1100 282 C 1094 312, 1080 330, 1068 340 Z" fill="#0e2f44" opacity="0.55"/>
+<path d="M 1068 340 C 1120 360, 1175 330, 1185 270 C 1192 225, 1170 190, 1130 175" fill="none" stroke="#0e2f44" stroke-width="22" opacity="0.18" stroke-linecap="round"/>
+<path d="M 1130 150 C 1250 92, 1410 120, 1480 220 C 1420 168, 1300 150, 1215 178 C 1120 210, 1050 255, 1035 300 C 1025 330, 1045 348, 1068 340 C 1040 372, 990 368, 975 330 C 955 270, 1020 185, 1130 150 Z" fill="#5fa8d3"/>
+<g transform="translate(973.6 323.2) rotate(-188.1) scale(1.71)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(972.5 309.4) rotate(-178.7) scale(1.64)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(973.7 295.7) rotate(-169.9) scale(2.04)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(976.9 281.9) rotate(-162.0) scale(1.73)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(982.1 268.3) rotate(-155.0) scale(1.42)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(989.1 254.8) rotate(-148.9) scale(1.60)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(997.8 241.5) rotate(-143.7) scale(1.78)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1008.1 228.4) rotate(-139.1) scale(2.07)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1019.8 215.7) rotate(-135.0) scale(1.88)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1032.8 203.3) rotate(-131.4) scale(1.86)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1046.9 191.4) rotate(-128.2) scale(1.57)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1062.1 180.0) rotate(-125.2) scale(1.90)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1078.1 169.1) rotate(-122.4) scale(1.37)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1095.0 158.9) rotate(-119.7) scale(1.83)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1112.4 149.3) rotate(-117.2) scale(1.81)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1130.4 140.5) rotate(-114.7) scale(1.60)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1148.7 132.4) rotate(-112.2) scale(1.60)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1167.2 125.2) rotate(-109.6) scale(1.54)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1185.9 118.9) rotate(-107.0) scale(2.09)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1204.5 113.6) rotate(-104.2) scale(1.51)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1222.9 109.4) rotate(-101.2) scale(1.81)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1241.1 106.2) rotate(-97.9) scale(1.96)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1261.7 104.2) rotate(-92.5) scale(1.69)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1284.6 104.0) rotate(-87.8) scale(1.83)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1306.8 105.6) rotate(-83.1) scale(1.44)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1328.3 109.0) rotate(-78.3) scale(1.85)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1348.9 114.0) rotate(-73.6) scale(1.85)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1368.6 120.6) rotate(-68.8) scale(1.53)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1387.3 128.6) rotate(-64.1) scale(1.78)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1405.0 138.0) rotate(-59.4) scale(1.87)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1421.5 148.6) rotate(-54.6) scale(1.95)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1436.9 160.4) rotate(-49.9) scale(1.76)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1451.1 173.2) rotate(-45.1) scale(1.36)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1464.0 187.0) rotate(-40.2) scale(1.68)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1475.5 201.6) rotate(-35.3) scale(1.79)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(1485.5 217.0) rotate(-30.3) scale(1.64)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.1" stroke-linejoin="round"/><circle cx="-3" cy="-24" r="2.4" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="0.8"/></g>
+<g transform="translate(979.6 331.2) rotate(-168.1) scale(1.03)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(979.7 303.7) rotate(-149.9) scale(1.22)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(988.1 276.3) rotate(-135.0) scale(0.85)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1003.8 249.5) rotate(-123.7) scale(1.07)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1025.8 223.7) rotate(-115.0) scale(1.13)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1052.9 199.4) rotate(-108.2) scale(0.94)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1084.1 177.1) rotate(-102.4) scale(0.82)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1118.4 157.3) rotate(-97.2) scale(1.09)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1154.7 140.4) rotate(-92.2) scale(0.96)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1191.9 126.9) rotate(-87.0) scale(1.25)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1228.9 117.4) rotate(-81.2) scale(1.08)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1267.7 112.2) rotate(-72.5) scale(1.01)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1312.8 113.6) rotate(-63.1) scale(0.87)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1354.9 122.0) rotate(-53.6) scale(1.11)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1393.3 136.6) rotate(-44.1) scale(1.07)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1427.5 156.6) rotate(-34.6) scale(1.17)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1457.1 181.2) rotate(-25.1) scale(0.81)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<g transform="translate(1481.5 209.6) rotate(-15.3) scale(1.07)"><path d="M 0 0 c -9 -6 -16 -20 -8 -30 c 5 -6 14 -4 15 3 c -5 -3 -10 1 -8 6 c 3 6 8 7 11 3 c -1 8 -3 14 -10 18 Z" fill="#f4f8fb" stroke="#7fb3d5" stroke-width="1.4" opacity="0.9"/></g>
+<path d="M 975 330 C 950 230, 1120 120, 1250 105 C 1360 95, 1450 150, 1490 225" fill="none" stroke="#f4f8fb" stroke-width="7" stroke-linecap="round" opacity="0.9"/>
+<circle cx="1044.2" cy="182.5" r="3.1" fill="#5fa8d3" opacity="0.51"/>
+<circle cx="1002.7" cy="267.2" r="1.0" fill="#5fa8d3" opacity="0.64"/>
+<circle cx="1448.0" cy="168.1" r="3.0" fill="#5fa8d3" opacity="0.54"/>
+<circle cx="1414.2" cy="147.8" r="1.6" fill="#5fa8d3" opacity="0.49"/>
+<circle cx="1240.6" cy="105.2" r="2.9" fill="#5fa8d3" opacity="0.71"/>
+<circle cx="1415.7" cy="108.2" r="1.9" fill="#5fa8d3" opacity="0.59"/>
+<circle cx="1248.2" cy="93.1" r="2.2" fill="#5fa8d3" opacity="0.54"/>
+<circle cx="1155.5" cy="110.7" r="1.3" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="1399.7" cy="123.8" r="2.0" fill="#5fa8d3" opacity="0.69"/>
+<circle cx="965.7" cy="288.8" r="2.0" fill="#5fa8d3" opacity="0.69"/>
+<circle cx="1433.7" cy="158.9" r="2.5" fill="#5fa8d3" opacity="0.50"/>
+<circle cx="1381.9" cy="114.6" r="1.6" fill="#5fa8d3" opacity="0.65"/>
+<circle cx="1056.6" cy="179.9" r="1.9" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="939.0" cy="295.9" r="1.2" fill="#5fa8d3" opacity="0.43"/>
+<circle cx="1302.6" cy="92.2" r="2.7" fill="#5fa8d3" opacity="0.78"/>
+<circle cx="1457.6" cy="162.2" r="2.8" fill="#5fa8d3" opacity="0.75"/>
+<circle cx="1488.4" cy="193.8" r="2.3" fill="#5fa8d3" opacity="0.54"/>
+<circle cx="1486.5" cy="203.8" r="1.9" fill="#5fa8d3" opacity="0.48"/>
+<circle cx="1438.3" cy="171.0" r="2.7" fill="#5fa8d3" opacity="0.53"/>
+<circle cx="1118.0" cy="126.6" r="2.8" fill="#5fa8d3" opacity="0.72"/>
+<circle cx="1307.7" cy="82.4" r="2.7" fill="#5fa8d3" opacity="0.78"/>
+<circle cx="1365.4" cy="121.7" r="2.1" fill="#5fa8d3" opacity="0.50"/>
+<circle cx="1333.8" cy="95.8" r="3.1" fill="#5fa8d3" opacity="0.62"/>
+<circle cx="1199.2" cy="105.9" r="2.4" fill="#5fa8d3" opacity="0.35"/>
+<circle cx="1390.6" cy="130.2" r="2.0" fill="#5fa8d3" opacity="0.51"/>
+<circle cx="1187.7" cy="103.4" r="1.8" fill="#5fa8d3" opacity="0.80"/>
+<circle cx="1461.1" cy="170.7" r="1.0" fill="#5fa8d3" opacity="0.53"/>
+<circle cx="1004.9" cy="292.8" r="1.1" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="1224.7" cy="103.2" r="1.9" fill="#5fa8d3" opacity="0.67"/>
+<circle cx="1406.0" cy="133.8" r="2.3" fill="#5fa8d3" opacity="0.65"/>
+<circle cx="1119.6" cy="120.3" r="1.9" fill="#5fa8d3" opacity="0.38"/>
+<circle cx="1342.5" cy="99.5" r="1.3" fill="#5fa8d3" opacity="0.41"/>
+<circle cx="1232.6" cy="96.8" r="1.2" fill="#5fa8d3" opacity="0.55"/>
+<circle cx="992.1" cy="284.1" r="1.0" fill="#5fa8d3" opacity="0.70"/>
+<circle cx="1003.6" cy="255.8" r="2.3" fill="#5fa8d3" opacity="0.54"/>
+<circle cx="1160.9" cy="105.4" r="1.8" fill="#5fa8d3" opacity="0.48"/>
+<circle cx="1055.5" cy="181.0" r="1.3" fill="#5fa8d3" opacity="0.59"/>
+<circle cx="1370.0" cy="108.3" r="1.3" fill="#5fa8d3" opacity="0.60"/>
+<circle cx="1079.7" cy="155.8" r="2.3" fill="#5fa8d3" opacity="0.57"/>
+<circle cx="1336.8" cy="106.9" r="2.4" fill="#5fa8d3" opacity="0.72"/>
+<circle cx="1446.6" cy="184.4" r="2.6" fill="#5fa8d3" opacity="0.63"/>
+<circle cx="1392.9" cy="84.6" r="2.7" fill="#5fa8d3" opacity="0.61"/>
+<circle cx="1178.9" cy="107.3" r="1.8" fill="#5fa8d3" opacity="0.39"/>
+<circle cx="1080.1" cy="137.8" r="2.5" fill="#5fa8d3" opacity="0.39"/>
+<circle cx="1071.5" cy="168.0" r="2.4" fill="#5fa8d3" opacity="0.74"/>
+<circle cx="1471.7" cy="196.7" r="1.6" fill="#5fa8d3" opacity="0.63"/>
+<circle cx="1159.6" cy="113.6" r="3.1" fill="#5fa8d3" opacity="0.35"/>
+<circle cx="1397.2" cy="109.4" r="3.1" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="1000.6" cy="243.3" r="2.0" fill="#5fa8d3" opacity="0.36"/>
+<circle cx="1423.7" cy="138.0" r="3.0" fill="#5fa8d3" opacity="0.53"/>
+<circle cx="987.2" cy="205.8" r="2.3" fill="#5fa8d3" opacity="0.36"/>
+<circle cx="1143.1" cy="127.3" r="2.1" fill="#5fa8d3" opacity="0.48"/>
+<circle cx="1327.0" cy="92.7" r="1.2" fill="#5fa8d3" opacity="0.46"/>
+<circle cx="1500.3" cy="186.6" r="3.0" fill="#5fa8d3" opacity="0.76"/>
+<circle cx="1451.0" cy="142.8" r="2.0" fill="#5fa8d3" opacity="0.72"/>
+<circle cx="1443.2" cy="150.2" r="1.3" fill="#5fa8d3" opacity="0.38"/>
+<circle cx="1381.6" cy="115.7" r="2.1" fill="#5fa8d3" opacity="0.40"/>
+<circle cx="1299.1" cy="87.2" r="2.9" fill="#5fa8d3" opacity="0.45"/>
+<circle cx="1288.9" cy="91.1" r="1.8" fill="#5fa8d3" opacity="0.54"/>
+<circle cx="1459.6" cy="170.3" r="1.8" fill="#5fa8d3" opacity="0.58"/>
+<circle cx="960.6" cy="230.3" r="3.2" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="994.4" cy="219.9" r="2.1" fill="#5fa8d3" opacity="0.68"/>
+<circle cx="1285.0" cy="101.6" r="2.9" fill="#5fa8d3" opacity="0.60"/>
+<circle cx="1331.9" cy="90.0" r="3.0" fill="#5fa8d3" opacity="0.44"/>
+<circle cx="1410.5" cy="113.6" r="1.7" fill="#5fa8d3" opacity="0.65"/>
+<circle cx="1128.8" cy="127.0" r="2.6" fill="#5fa8d3" opacity="0.58"/>
+<circle cx="1075.9" cy="165.2" r="2.9" fill="#5fa8d3" opacity="0.75"/>
+<circle cx="1400.5" cy="137.3" r="2.5" fill="#5fa8d3" opacity="0.71"/>
+<circle cx="1486.2" cy="183.0" r="1.7" fill="#5fa8d3" opacity="0.75"/>
+<circle cx="1502.9" cy="202.2" r="1.3" fill="#5fa8d3" opacity="0.36"/>
+<circle cx="1330.9" cy="86.8" r="2.6" fill="#5fa8d3" opacity="0.63"/>
+<circle cx="1034.3" cy="196.6" r="1.4" fill="#5fa8d3" opacity="0.52"/>
+<circle cx="1268.6" cy="95.9" r="2.1" fill="#5fa8d3" opacity="0.38"/>
+<circle cx="1009.3" cy="268.2" r="2.5" fill="#5fa8d3" opacity="0.62"/>
+<circle cx="1316.8" cy="98.6" r="2.0" fill="#5fa8d3" opacity="0.68"/>
+<circle cx="1403.9" cy="134.2" r="1.1" fill="#5fa8d3" opacity="0.77"/>
+<circle cx="1321.5" cy="105.4" r="1.4" fill="#5fa8d3" opacity="0.49"/>
+<circle cx="1489.1" cy="210.4" r="1.6" fill="#5fa8d3" opacity="0.47"/>
+<circle cx="1390.8" cy="126.0" r="3.0" fill="#5fa8d3" opacity="0.60"/>
+<circle cx="1339.5" cy="114.5" r="1.6" fill="#5fa8d3" opacity="0.42"/>
+<circle cx="1088.8" cy="153.3" r="2.2" fill="#5fa8d3" opacity="0.62"/>
+<circle cx="1317.7" cy="103.1" r="1.6" fill="#5fa8d3" opacity="0.51"/>
+<circle cx="948.0" cy="235.1" r="1.3" fill="#5fa8d3" opacity="0.66"/>
+<circle cx="1180.6" cy="95.9" r="2.4" fill="#5fa8d3" opacity="0.71"/>
+<circle cx="967.2" cy="215.4" r="1.7" fill="#5fa8d3" opacity="0.76"/>
+<circle cx="1415.3" cy="135.3" r="2.9" fill="#5fa8d3" opacity="0.59"/>
+<circle cx="1341.9" cy="82.7" r="2.2" fill="#5fa8d3" opacity="0.72"/>
+<circle cx="1300.8" cy="108.1" r="3.2" fill="#5fa8d3" opacity="0.51"/>
+<circle cx="1052.6" cy="162.9" r="2.8" fill="#5fa8d3" opacity="0.64"/>
+<circle cx="1479.8" cy="202.7" r="3.2" fill="#5fa8d3" opacity="0.80"/>
+<circle cx="1483.9" cy="197.1" r="1.5" fill="#5fa8d3" opacity="0.40"/>
+<circle cx="972.0" cy="298.1" r="3.1" fill="#5fa8d3" opacity="0.70"/>
+<circle cx="1155.8" cy="123.6" r="2.6" fill="#5fa8d3" opacity="0.60"/>
+<circle cx="1434.9" cy="143.3" r="1.9" fill="#5fa8d3" opacity="0.68"/>
+<circle cx="1150.9" cy="126.5" r="3.1" fill="#5fa8d3" opacity="0.67"/>
+<circle cx="1414.2" cy="124.6" r="1.7" fill="#5fa8d3" opacity="0.54"/>
+<circle cx="999.2" cy="272.6" r="2.1" fill="#5fa8d3" opacity="0.51"/>
+<circle cx="1092.7" cy="153.8" r="1.4" fill="#5fa8d3" opacity="0.66"/>
+<circle cx="1462.3" cy="150.2" r="3.1" fill="#5fa8d3" opacity="0.45"/>
+<circle cx="980.6" cy="253.2" r="2.2" fill="#5fa8d3" opacity="0.46"/>
+<circle cx="1038.8" cy="214.2" r="1.7" fill="#5fa8d3" opacity="0.41"/>
+<circle cx="1366.1" cy="120.5" r="2.8" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="1212.0" cy="98.7" r="2.3" fill="#5fa8d3" opacity="0.53"/>
+<circle cx="1036.7" cy="209.8" r="1.0" fill="#5fa8d3" opacity="0.76"/>
+<circle cx="1205.7" cy="103.0" r="2.9" fill="#5fa8d3" opacity="0.46"/>
+<circle cx="1306.9" cy="101.7" r="1.6" fill="#5fa8d3" opacity="0.58"/>
+<circle cx="1447.4" cy="182.6" r="2.8" fill="#5fa8d3" opacity="0.64"/>
+<circle cx="1332.6" cy="86.9" r="2.2" fill="#5fa8d3" opacity="0.49"/>
+<circle cx="1198.4" cy="111.9" r="1.7" fill="#5fa8d3" opacity="0.67"/>
+<circle cx="1027.4" cy="217.2" r="2.7" fill="#5fa8d3" opacity="0.65"/>
+<circle cx="1108.3" cy="136.9" r="1.3" fill="#5fa8d3" opacity="0.37"/>
+<circle cx="1480.3" cy="173.6" r="2.6" fill="#5fa8d3" opacity="0.79"/>
+<circle cx="1001.7" cy="207.1" r="1.5" fill="#5fa8d3" opacity="0.80"/>
+<circle cx="1026.5" cy="272.2" r="1.6" fill="#5fa8d3" opacity="0.78"/>
+<circle cx="1375.5" cy="89.5" r="1.8" fill="#5fa8d3" opacity="0.76"/>
+<circle cx="1285.4" cy="105.6" r="2.5" fill="#5fa8d3" opacity="0.58"/>
+<circle cx="1404.3" cy="123.3" r="2.8" fill="#5fa8d3" opacity="0.77"/>
+<circle cx="1458.1" cy="174.1" r="3.0" fill="#5fa8d3" opacity="0.50"/>
+<circle cx="988.4" cy="235.8" r="2.7" fill="#5fa8d3" opacity="0.49"/>
+<circle cx="1390.2" cy="135.3" r="2.2" fill="#5fa8d3" opacity="0.40"/>
+<circle cx="1114.6" cy="117.2" r="2.3" fill="#5fa8d3" opacity="0.69"/>
+<circle cx="1171.0" cy="131.0" r="1.7" fill="#5fa8d3" opacity="0.80"/>
+<circle cx="971.4" cy="259.3" r="1.8" fill="#5fa8d3" opacity="0.44"/>
+<circle cx="997.1" cy="268.6" r="1.7" fill="#5fa8d3" opacity="0.47"/>
+<circle cx="1446.1" cy="182.4" r="2.9" fill="#5fa8d3" opacity="0.74"/>
+<circle cx="989.9" cy="304.1" r="2.9" fill="#5fa8d3" opacity="0.42"/>
+<circle cx="948.9" cy="233.3" r="1.8" fill="#5fa8d3" opacity="0.65"/>
+<circle cx="1215.9" cy="85.2" r="2.0" fill="#5fa8d3" opacity="0.75"/>
+<circle cx="1021.4" cy="261.9" r="1.6" fill="#5fa8d3" opacity="0.75"/>
+<circle cx="1309.5" cy="92.6" r="2.6" fill="#5fa8d3" opacity="0.36"/>
+<circle cx="1286.7" cy="98.1" r="1.8" fill="#5fa8d3" opacity="0.43"/>
+<circle cx="1259.3" cy="98.7" r="2.5" fill="#5fa8d3" opacity="0.70"/>
+<circle cx="1001.4" cy="191.9" r="1.7" fill="#5fa8d3" opacity="0.55"/>
+<circle cx="1473.3" cy="152.4" r="1.8" fill="#5fa8d3" opacity="0.43"/>
+<circle cx="1491.9" cy="176.3" r="2.1" fill="#5fa8d3" opacity="0.64"/>
+<circle cx="1258.0" cy="92.0" r="2.7" fill="#5fa8d3" opacity="0.53"/>
+<circle cx="1341.3" cy="102.4" r="2.0" fill="#5fa8d3" opacity="0.40"/>
+<circle cx="1090.7" cy="142.3" r="1.8" fill="#5fa8d3" opacity="0.38"/>
+<circle cx="1443.8" cy="149.5" r="2.4" fill="#5fa8d3" opacity="0.72"/>
+<circle cx="1487.7" cy="186.6" r="1.6" fill="#5fa8d3" opacity="0.67"/>
+<path d="M 430 620 C 640 612, 790 548, 880 440" fill="none" stroke="#f4f8fb" stroke-width="5" opacity="0.7" stroke-linecap="round"/>
+<g transform="translate(805 470) rotate(-32) scale(1.0 1.0)">
+<path d="M -46 6 C -30 -2, 30 -4, 50 2 C 34 10, -28 12, -46 6 Z" fill="#913d15"/>
+<path d="M -30 5 L 34 3" stroke="#f3c9a5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M -10 2 L -2 -18 L 8 -2" fill="none" stroke="#14140f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -2 -18 L 2 -38" stroke="#14140f" stroke-width="6" stroke-linecap="round"/>
+<path d="M 0 -32 L -20 -26 M 1 -31 L 20 -38" stroke="#14140f" stroke-width="4" stroke-linecap="round"/>
+<circle cx="3" cy="-46" r="6.5" fill="#14140f"/>
+</g>
+<g transform="translate(905 395) rotate(-48) scale(0.85 0.85)">
+<path d="M -46 6 C -30 -2, 30 -4, 50 2 C 34 10, -28 12, -46 6 Z" fill="#913d15"/>
+<path d="M -30 5 L 34 3" stroke="#f3c9a5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M -10 2 L -2 -18 L 8 -2" fill="none" stroke="#14140f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -2 -18 L 2 -38" stroke="#14140f" stroke-width="6" stroke-linecap="round"/>
+<path d="M 0 -32 L -20 -26 M 1 -31 L 20 -38" stroke="#14140f" stroke-width="4" stroke-linecap="round"/>
+<circle cx="3" cy="-46" r="6.5" fill="#14140f"/>
+</g>
+<g transform="translate(720 548) rotate(-18) scale(1.1 1.1)">
+<path d="M -46 6 C -30 -2, 30 -4, 50 2 C 34 10, -28 12, -46 6 Z" fill="#913d15"/>
+<path d="M -30 5 L 34 3" stroke="#f3c9a5" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path d="M -10 2 L -2 -18 L 8 -2" fill="none" stroke="#14140f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M -2 -18 L 2 -38" stroke="#14140f" stroke-width="6" stroke-linecap="round"/>
+<path d="M 0 -32 L -20 -26 M 1 -31 L 20 -38" stroke="#14140f" stroke-width="4" stroke-linecap="round"/>
+<circle cx="3" cy="-46" r="6.5" fill="#14140f"/>
+</g>
+<path d="M 0 640 C 220 610, 420 620, 640 655 C 760 675, 820 700, 860 760 L 0 760 Z" fill="#e9dcc3"/>
+<path d="M 0 640 C 220 610, 420 620, 640 655 C 760 675, 820 700, 860 760" fill="none" stroke="#f4f8fb" stroke-width="4" opacity="0.9"/>
+<circle cx="268" cy="690" r="1.3" fill="#cdbb98"/>
+<circle cx="194" cy="721" r="1.3" fill="#cdbb98"/>
+<circle cx="409" cy="702" r="1.3" fill="#cdbb98"/>
+<circle cx="179" cy="687" r="1.3" fill="#cdbb98"/>
+<circle cx="647" cy="730" r="1.3" fill="#cdbb98"/>
+<circle cx="275" cy="726" r="1.3" fill="#cdbb98"/>
+<circle cx="422" cy="661" r="1.3" fill="#cdbb98"/>
+<circle cx="76" cy="714" r="1.3" fill="#cdbb98"/>
+<circle cx="649" cy="660" r="1.3" fill="#cdbb98"/>
+<circle cx="219" cy="665" r="1.3" fill="#cdbb98"/>
+<circle cx="59" cy="722" r="1.3" fill="#cdbb98"/>
+<circle cx="349" cy="707" r="1.3" fill="#cdbb98"/>
+<circle cx="181" cy="704" r="1.3" fill="#cdbb98"/>
+<circle cx="266" cy="691" r="1.3" fill="#cdbb98"/>
+<circle cx="408" cy="700" r="1.3" fill="#cdbb98"/>
+<circle cx="675" cy="701" r="1.3" fill="#cdbb98"/>
+<circle cx="280" cy="738" r="1.3" fill="#cdbb98"/>
+<circle cx="523" cy="708" r="1.3" fill="#cdbb98"/>
+<circle cx="183" cy="736" r="1.3" fill="#cdbb98"/>
+<circle cx="381" cy="685" r="1.3" fill="#cdbb98"/>
+<circle cx="355" cy="739" r="1.3" fill="#cdbb98"/>
+<circle cx="759" cy="709" r="1.3" fill="#cdbb98"/>
+<circle cx="426" cy="669" r="1.3" fill="#cdbb98"/>
+<circle cx="287" cy="718" r="1.3" fill="#cdbb98"/>
+<circle cx="696" cy="692" r="1.3" fill="#cdbb98"/>
+<circle cx="54" cy="661" r="1.3" fill="#cdbb98"/>
+<circle cx="682" cy="706" r="1.3" fill="#cdbb98"/>
+<circle cx="279" cy="750" r="1.3" fill="#cdbb98"/>
+<circle cx="243" cy="742" r="1.3" fill="#cdbb98"/>
+<circle cx="393" cy="700" r="1.3" fill="#cdbb98"/>
+<circle cx="337" cy="734" r="1.3" fill="#cdbb98"/>
+<circle cx="235" cy="715" r="1.3" fill="#cdbb98"/>
+<circle cx="513" cy="740" r="1.3" fill="#cdbb98"/>
+<circle cx="661" cy="732" r="1.3" fill="#cdbb98"/>
+<circle cx="572" cy="700" r="1.3" fill="#cdbb98"/>
+<circle cx="23" cy="703" r="1.3" fill="#cdbb98"/>
+<circle cx="311" cy="705" r="1.3" fill="#cdbb98"/>
+<circle cx="633" cy="691" r="1.3" fill="#cdbb98"/>
+<circle cx="436" cy="731" r="1.3" fill="#cdbb98"/>
+<circle cx="85" cy="682" r="1.3" fill="#cdbb98"/>
+<circle cx="431" cy="718" r="1.3" fill="#cdbb98"/>
+<circle cx="216" cy="718" r="1.3" fill="#cdbb98"/>
+<circle cx="415" cy="663" r="1.3" fill="#cdbb98"/>
+<circle cx="621" cy="703" r="1.3" fill="#cdbb98"/>
+<circle cx="546" cy="683" r="1.3" fill="#cdbb98"/>
+<circle cx="633" cy="690" r="1.3" fill="#cdbb98"/>
+<circle cx="72" cy="734" r="1.3" fill="#cdbb98"/>
+<circle cx="78" cy="735" r="1.3" fill="#cdbb98"/>
+<circle cx="729" cy="679" r="1.3" fill="#cdbb98"/>
+<circle cx="289" cy="720" r="1.3" fill="#cdbb98"/>
+<circle cx="334" cy="746" r="1.3" fill="#cdbb98"/>
+<circle cx="142" cy="708" r="1.3" fill="#cdbb98"/>
+<circle cx="89" cy="663" r="1.3" fill="#cdbb98"/>
+<circle cx="662" cy="687" r="1.3" fill="#cdbb98"/>
+<circle cx="137" cy="707" r="1.3" fill="#cdbb98"/>
+<circle cx="521" cy="740" r="1.3" fill="#cdbb98"/>
+<circle cx="672" cy="723" r="1.3" fill="#cdbb98"/>
+<circle cx="683" cy="715" r="1.3" fill="#cdbb98"/>
+<circle cx="136" cy="664" r="1.3" fill="#cdbb98"/>
+<circle cx="392" cy="744" r="1.3" fill="#cdbb98"/>
+<g stroke="#434739" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M 252 704 L 270 664 L 288 704"/><path d="M 412 704 L 430 664 L 448 704"/><path d="M 260 688 L 280 688 M 420 688 L 440 688"/></g>
+<path d="M 230 660 C 280 646, 430 644, 480 656 C 440 668, 280 670, 230 660 Z" fill="#d9783f"/>
+<path d="M 250 658 L 460 656" stroke="#fefdfb" stroke-width="1.4" opacity="0.8"/>
+<g stroke="#14140f" stroke-width="6" stroke-linecap="round" fill="none"><path d="M 520 742 L 530 700 L 545 742"/><path d="M 530 700 L 520 660"/><path d="M 522 668 L 470 652 M 522 672 L 476 660"/></g><circle cx="518" cy="646" r="9" fill="#14140f"/>
+<g stroke="#14140f" stroke-width="6" stroke-linecap="round" fill="none"><path d="M 170 742 L 180 700 L 192 742"/><path d="M 180 700 L 186 660"/><path d="M 184 668 L 214 676 M 186 672 L 212 686"/></g><circle cx="188" cy="646" r="9" fill="#14140f"/>
+<ellipse cx="610" cy="700" rx="60" ry="34" fill="url(#glow)"/>
+<path d="M 580 712 L 640 712 L 646 720 L 574 720 Z" fill="#434739"/>
+<path d="M 584 712 L 588 680 L 636 680 L 632 712 Z" fill="#14140f"/>
+<path d="M 591 708 L 594 684 L 630 684 L 627 708 Z" fill="#5fa8d3"/>
+<text x="598" y="702" font-family="Noto Sans Mono, Menlo, monospace" font-size="11" fill="#fefdfb">{ }</text>
+<rect x="60" y="690" width="56" height="40" fill="#cdbb98" stroke="#434739" stroke-width="2"/>
+<rect x="83" y="668" width="10" height="22" fill="#fefdfb" stroke="#434739" stroke-width="1.5"/>
+<ellipse cx="88" cy="660" rx="16" ry="18" fill="url(#glow)"/>
+<path d="M 88 650 C 83 658, 84 664, 88 666 C 92 664, 93 658, 88 650 Z" fill="#d9783f"/>
+</svg>
