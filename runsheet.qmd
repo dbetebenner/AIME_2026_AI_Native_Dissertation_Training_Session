@@ -1,0 +1,121 @@
+---
+title: "Facilitator run-sheet"
+subtitle: "Writing an AI-Native Dissertation · 240 minutes · 5 attendees"
+format:
+  html:
+    toc: true
+---
+
+::: {.callout-important}
+**Times are guidance.** The rule: protect the three hands-on blocks. If behind, cut from the "cut if behind" line of the current block, never from a hands-on checkpoint.
+:::
+
+## The day before
+
+- [ ] **The hub is up:** <https://dissertation-ai.dataimago.ai/onboard> loads; sign in works.
+- [ ] **Templates on the latest `main`:** `dissertation-app-template` (harness with `AGENTS.md`; Generate warns instead of failing) and `dissertation-rpkg-template` (skips the raw template commit).
+- [ ] **A fresh test repo is clean:** generate one, then check Actions (green, or yellow warnings only), `AGENTS.md` present, no `{{…}}` left. Delete it afterwards.
+- [ ] **Your fallback instance:** `dbetebenner-dissertation` + `irtc` (knowledge site, book, Vercel app) ready to show.
+- [ ] **Room:** projector, a Wi-Fi password card, a phone hotspot as backup, power strips.
+- [ ] **Slides and handout:** this site renders; the handout PDF is printed (one per attendee + 2).
+- [ ] **Readiness reports:** collect each attendee's mode (A / B / C) and anything "still not working".
+
+## Attendee board (fill in at 0:03)
+
+| Name | Mode (A/B/C) | AI tool | GitHub user | R package? | Notes / stuck on |
+|---|---|---|---|---|---|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+## Minute by minute
+
+### 0:00–0:25 · "AI is like a…" and introductions
+
+- **Do:** open cold on the exercise slide; two silent minutes; write your own three.
+- **Do (0:03):** introductions through metaphors, about 2 minutes each. You go last. Fill the metaphor table, and fill the attendee board (mode, tool).
+- **Say (0:17):** limiting versus expansive pictures; "today: AI as a medium, and a collaborator, never an author."
+- **Do (0:20):** everyone asks their AI "AI is like a…". This doubles as a **tool check**; flag anyone whose AI isn't working.
+- **Cut if behind:** skip the "ask your AI" round (keep the tool check: just "open your AI and say hi").
+
+### 0:25–0:45 · Why: the dissertation as transmission
+
+- **Say:** what a dissertation *is*; six centuries, one modality; "digitized the container, not the knowledge"; new consumers; one source, many channels.
+- **Ask:** "Who reads your dissertation besides your committee?"
+- **Cut if behind:** compress the eras to the single diagram.
+
+### 0:45–1:05 · What you'll build
+
+- **Say:** answers → spec → your repositories (yours, on your account). Walk the "what's in your repository" table. The vocabulary, fast; dwell on **harness**. The discipline: plumbing versus content.
+- **Do (1:00):** a show of hands per mode. Seat a Mode C attendee next to a Mode A one.
+- **Cut if behind:** the vocabulary slide (it's in the handout).
+
+### 1:05–1:50 · Hands-on 1: create and meet your repository
+
+- **1:05–1:25: create at the hub.** Circulate. Expected moments:
+  - *"N documents still need a file"*: listed but not attached → **Generate without them** is fine.
+  - **A name already taken** (e.g. an existing package name): the hub stops, says *Nothing was created*, and jumps to the fix. Nothing is orphaned.
+  - **Private chosen:** the done page explains there are no website links; that's correct.
+- **1:25–1:35: clone + Prompt 2.** `git clone --recursive …`. Mode B: one repository only. Mode C: paste the four files. Ask one or two people to read their AI's "rules" aloud. Listen for branches/PRs, `raw/` read-only, LOCKED.md, no secrets or personal data, public warning.
+- **1:35–1:45: the first PR.** The AI opens it; the attendee merges it.
+- **1:45–1:50: checkpoint.** Anyone short → fallbacks below; pair them over the break.
+
+### 1:50–2:05 · Break
+
+Unstick anyone who missed the checkpoint.
+
+### 2:05–2:55 · Hands-on 2: knowledge base · write → render → review
+
+- **2:05–2:10, say:** context compounds; `raw/` → `/ingest` → `wiki/` + the report; `/import-manuscript` for finished dissertations (LOCKED).
+- **2:10–2:25, do:** ingest. Claude Code: `/ingest`; others: Prompt 3; Mode C: the paste version. **A large folder can take a while; start it and move on.** An empty `raw/` is fine.
+  - **Stop any AI that edits `raw/`.**
+- **2:25–2:30, contest it:** each attendee checks one claim from the report.
+- **2:30–2:50, write → render → review:** the opening of the introduction. Coach the prompt "show me each change; don't rewrite silently". Preview errors are plumbing; let the AI fix them.
+- **2:50–2:55, demo:** inline `r` values (cut if behind).
+- **Cut if behind:** the inline-values demo; shorten "contest it" to one person sharing.
+
+### 2:55–3:20 · Hands-on 3: publish
+
+- **Say first:** a yellow warning is not a failure ("run /ingest", or the R-generator note, which is a known framework gap).
+- **Do:** push → Actions builds the PDF; Vercel via the done page's **Deploy to Vercel**; public repos switch on Pages (Settings → Pages → Source: GitHub Actions).
+- **Fallback:** if Vercel stalls, show yours and have them finish after; it's the least important checkpoint.
+
+### 3:20–3:40 · The harness is yours
+
+- **Show:** `AGENTS.md` in your own repository: "Working with the author", "Constraints".
+- **Do:** everyone has their AI add a "How I work" section, as a PR they review.
+- **Say (3:33):** the vision. Research as tools an AI can call, via MCP. **Label it as coming, not today.** MCP from the consumer side (connecting your AI to tools) they can use now.
+- **Cut if behind:** shorten the vision to one slide.
+
+### 3:40–4:00 · Wrap-up
+
+- Responsible by construction: AI contribution statement (`ui/www/ai-contribution-statement.qmd` in the package layout), reproducibility, transparency, institutional policy, privacy.
+- **Return to the metaphor table (3:48):** what changed?
+- Next steps; Q&A. Promise the follow-up email tonight.
+
+## Fallbacks
+
+| Situation | Fallback |
+|---|---|
+| No AI with file access | **Mode C** (paste in, paste back). Pair with a Mode A neighbour to see the loop. |
+| AI plan rate-limited or out of credit | Pair up; one screen, two people. They continue at home with the handout. |
+| GitHub sign-in fails | Sign out of the hub and back in; check the dissertation.ai app's access at github.com → Settings → Applications. |
+| Repo name taken | Nothing was created. Rename on review, or (package) "Take me to that question". |
+| Wanted private but chose public (or vice versa) | Change it on GitHub: Settings → General → Danger Zone. |
+| `git clone` asks for a password | `gh auth login` (Mode A); or download the ZIP to follow along and fix git at the break. |
+| Empty `packages/r-packages/…` | `git submodule update --init --recursive`. |
+| `quarto` fails (fonts or TinyTeX) | Plumbing: have the AI fix it; meanwhile, review the CI-built PDF in `docs/`. |
+| `/ingest` very slow or stuck | Let it run; they continue with write → render → review on a fresh chapter. |
+| A red ✗ in Actions | Copy the log into their AI; check against the known warnings. If it's a real template bug, note it for you. |
+| Vercel can't see the repository | In Vercel, adjust the GitHub app's repository access; or defer to after the session. |
+| Windows | Git Bash or WSL for the commands. Everything else is the same. |
+| Everyone's stuck at the same spot | Stop, demo it on your screen with your instance, then resume. |
+
+## Known framework limits (say them plainly if asked)
+
+- **REST API / MCP tools for each dissertation** are not in today's repositories; they're on the roadmap (the vision slide).
+- **The R generator (`dataimago::ai`)** can't yet read every layout. It shows a yellow warning, not a failure.
+- **Private repositories** don't publish GitHub Pages sites on the free plan.
+- **Windows screen readers** are untested so far (VoiceOver on macOS was tested).

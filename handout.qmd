@@ -1,0 +1,140 @@
+---
+title: "Attendee handout"
+subtitle: "Writing an AI-Native Dissertation · AIME-Con 2026"
+format:
+  html:
+    toc: true
+  typst:
+    toc: true
+    papersize: us-letter
+    margin:
+      x: 0.9in
+      y: 0.8in
+    mainfont: "Noto Sans"
+    fontsize: 10pt
+---
+
+## The links you need
+
+| What | Where |
+|---|---|
+| **Create your dissertation** | <https://dissertation-ai.dataimago.ai> → **Begin** |
+| The pre-work questions | <https://dissertation-ai.dataimago.ai/handout/dissertation-onboarding-handout.md> |
+| Pre-work answers as JSON (for **Import JSON**) | <https://dissertation-ai.dataimago.ai/handout/dissertation-onboarding-template.json> |
+| These materials | this site (Slides · Handout · Prompts) |
+
+## Ground rules for your AI (and for you)
+
+- **Branches and pull requests.** The AI proposes; you review and merge. Never let it push to `main`, merge, delete, or force-push without asking.
+- **`raw/` is read-only.** Your sources. The AI cites and summarises them; it never edits them.
+- **`LOCKED.md` governs.** If `raw/manuscript/LOCKED.md` exists, your manuscript is finished work: extend it, never regenerate it.
+- **Your prose is yours.** Ask the AI to *show* changes, never to silently rewrite.
+- **No secrets, no personal data.** No `.env` files, keys, or tokens; nothing that identifies people. Those go in `raw/private/`, which git never sees.
+- **Public + unpublished = make it private.** Settings → General → Danger Zone → Change visibility.
+
+## Hands-on 1 — Create your dissertation and meet your repository (1:05–1:50)
+
+**Goal:** your repository on GitHub, a local clone your AI can see, one pull request.
+
+### 1. Create it
+
+1. Open <https://dissertation-ai.dataimago.ai> → **Begin**.
+2. Answer from your pre-work document. Ask your AI to help you move answers across. If you filled in the JSON template, use **Import JSON** (top right) → paste → **Import these answers**.
+3. **Sign in with GitHub** when asked.
+4. On **Review your answers**, check *Before you generate*: repository names, **public or private**.
+5. Press **Generate my dissertation**.
+
+**If a notice says documents still need a file:** you listed documents but didn't attach them. Choose **Generate without them** and attach them later, or attach now.
+
+**If a name is taken:** nothing is created. The page tells you which name collided and takes you to fix it.
+
+**Keep the done page open:** it lists your repositories, where your work publishes, and next steps.
+
+### 2. Clone it and point your AI at it
+
+```bash
+cd ~/Dissertation
+git clone --recursive https://github.com/<you>/<your-repo>.git
+```
+
+`--recursive` also pulls in your R package, if your dissertation has one. Then paste **Prompt 2** (below) into your AI.
+
+### 3. Your first pull request
+
+Your AI makes a branch, adds one line to `writing/setup-check.md`, commits, pushes, and opens a pull request. **You** review and merge it on GitHub.
+
+::: {.callout-note collapse="false" title="Prompt 2 — Get to know your repo"}
+{{< include prompts/_02-text.md >}}
+:::
+
+## Hands-on 2 — Knowledge base, then write → render → review (2:05–2:55)
+
+**Goal:** a knowledge base built from your sources, which you've checked; one section drafted, rendered and reviewed.
+
+### 1. Build your knowledge base
+
+- **Claude Code:** `/ingest`
+- **Any other AI tool:** use **Prompt 3**.
+- **Brought a whole folder?** Copy it into `raw/inbox/` first. It isn't committed until `/ingest` sorts it.
+- **Brought a finished dissertation?** Afterwards, run `/import-manuscript`. Your originals stay locked as version 1.0.
+
+::: {.callout-note collapse="false" title="Prompt 3 — Build your knowledge base (any AI tool)"}
+{{< include prompts/_03-text-tool.md >}}
+:::
+
+### 2. Contest it
+
+Open the ingest report. Pick **one** claim the AI made about your work. Is it correct, wrong, or something only you can answer? Correct it in your own words, and have your AI update the page.
+
+### 3. Write → render → review
+
+1. *"Read `writing/STYLE.md` and my knowledge base. Help me draft the opening of my introduction. Show me each change; don't rewrite my prose silently."*
+2. Render from your thesis folder (`thesis/`, or your package's `ui/www/`):
+
+   ```bash
+   quarto preview              # live preview while you write
+   quarto render --to pdf      # the PDF, locally
+   ```
+
+3. Review it as your committee would, and go round again.
+
+## Hands-on 3 — Publish (2:55–3:20)
+
+**Goal:** something of yours live on the open web.
+
+- **Push.** GitHub Actions builds your thesis PDF (`docs/thesis.pdf`). A **yellow warning** is a reminder, not a failure. For example, "run /ingest", or "the R generator could not run yet", which is a known framework gap and not your fault.
+- **Your website (Vercel):** done page → **Deploy to Vercel** → sign in → import your dissertation repository → **Deploy**. Every push to `main` redeploys it.
+- **Your knowledge site (GitHub Pages):** public repositories only, on GitHub's free plan. Turn it on once: Settings → Pages → Source: **GitHub Actions**. It goes live after the next build.
+
+## The harness is yours (3:20–3:40)
+
+| File | What it does |
+|---|---|
+| `AGENTS.md` | The manual **every** AI tool reads: layout, rules, workflows |
+| `CLAUDE.md` | Claude Code's entry point (imports `AGENTS.md`) |
+| `.claude/skills/*/SKILL.md` | Procedures in plain Markdown: `ingest`, `import-manuscript`, `thesis-build` |
+| `.claude/agents/*.md` | Briefs for specialist roles |
+| `KNOWLEDGE.md` | How the knowledge base is kept |
+
+**Try:** *"Add a 'How I work' section to `AGENTS.md`, covering my committee's expectations, the voice I want, method choices that must never be simplified, and words I never want used. Open it as a pull request."*
+
+## If something goes wrong
+
+| Symptom | Do this |
+|---|---|
+| My AI can't see files or run `git` | You're in **Mode C**: paste files in and paste changes back. Same results. |
+| GitHub sign-in loops | Sign out of the hub (top right), then sign in again. Allow the dissertation.ai app access to your account. |
+| "Name already exists" | Nothing was created. Pick another name; the page takes you there. |
+| The `packages/r-packages/…` folder is empty | You cloned without `--recursive`. Run `git submodule update --init --recursive`. |
+| `quarto` errors about fonts or LaTeX | Plumbing: ask your AI to fix it (`quarto install tinytex`; the Noto fonts). |
+| A red ✗ in Actions | Open it, copy the error to your AI, and ask what it means. Don't guess. |
+| `/ingest` is taking a while | Let it run and keep going. You can contest the report later. |
+| Vercel can't see my repository | In Vercel, adjust the GitHub app's repository access to include it. |
+
+## Where to keep going
+
+- Write → render → review: one section a day.
+- New sources go in `raw/inbox/`, then run `/ingest`.
+- Update `AGENTS.md` whenever your AI gets something wrong.
+- Keep your **AI contribution statement** current (the thesis appendix).
+- Send your committee the **website link**, not just the PDF.

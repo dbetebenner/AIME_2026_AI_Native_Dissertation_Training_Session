@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+// dataimago house palette (the tokens dissertation.ai renders in):
+// stone ground, paper panels, forest interactive, copper editorial accent.
+$stone-100: #ededeb;
+$stone-200: #dcdcda;
+$stone-700: #424240;
+$ink: #14140f;
+$paper: #fefdfb;
+$forest-700: #434739;
+$forest-50: #f0f1ed;
+$copper-700: #913d15;
+$focus: #1f618d;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $forest-700;
+$primary: $forest-700;
+$font-family-sans-serif: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$headings-font-weight: 600;
+$code-color: $copper-700;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Mono:wght@400;500&display=swap");
+
+code, pre { font-family: "Noto Sans Mono", ui-monospace, Menlo, monospace; }
+a { text-decoration: underline; text-underline-offset: 2px; }
+:focus-visible { outline: 3px solid $focus; outline-offset: 2px; }
+
+.callout-prompt {
+  background: $forest-50;
+  border-left: 4px solid $forest-700;
+  padding: 0.8em 1em;
+  border-radius: 6px;
+}
+.time-mark {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 0.85em;
+  color: $copper-700;
+}
+table { font-size: 0.95em; }

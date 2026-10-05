@@ -1,0 +1,40 @@
+---
+title: "Writing an AI-Native Dissertation"
+subtitle: "AIME-Con 2026 · Training session (4 hours, hands-on)"
+---
+
+A hands-on, half-day session in which you build your own **AI-native dissertation**: a repository created from your own research answers, with a knowledge base your AI maintains, a thesis that renders to the web and to PDF, a website on the open web, and an AI harness you shape to your scholarship.
+
+**Presenter:** Damian Betebenner, Center for Assessment
+
+## Materials
+
+| | |
+|---|---|
+| [**Slides**](slides.qmd) | The session deck (press `S` for speaker view, `F` for full screen) |
+| [**Handout**](handout.qmd) | Every step, link, command, and fix, as HTML or [PDF](handout.pdf) |
+| [**Prompts**](prompts/02-get-to-know-your-repo.md) | Copy-paste prompts for your AI |
+| [**Run-sheet**](runsheet.qmd) | The facilitator's minute-by-minute plan |
+| [**Follow-up**](follow-up.qmd) | After the session |
+
+## The four hours
+
+| Time | Block |
+|---|---|
+| 0:00 | **AI is like a…** and introductions |
+| 0:25 | Why: the dissertation as a way of transmitting knowledge |
+| 0:45 | What you'll build: your dissertation as a platform |
+| 1:05 | **Hands-on 1:** create your dissertation and meet your repository |
+| 1:50 | *Break* |
+| 2:05 | **Hands-on 2:** build your knowledge base; write → render → review |
+| 2:55 | **Hands-on 3:** publish |
+| 3:20 | **The harness is yours:** make the AI work your way |
+| 3:40 | Ethics, attribution, what's next · Q&A |
+
+## Before you arrive
+
+- A laptop you can install software on, and Wi-Fi.
+- **Your AI, set up:** you ran [Prompt 1](prompts/01-computer-ready.md) and have its readiness report (Mode A, B or C).
+- **A GitHub account** (and `git` configured), plus **a Vercel account**.
+- **Your pre-work answers:** the [questions](https://dissertation-ai.dataimago.ai/handout/dissertation-onboarding-handout.md), filled in with your AI's help.
+- Helpful but not required: [Quarto](https://quarto.org/docs/get-started/) (to preview your thesis locally) and R (if your dissertation has an R package).

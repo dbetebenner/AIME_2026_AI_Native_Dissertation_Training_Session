@@ -1,0 +1,42 @@
+---
+title: "Post-session follow-up"
+subtitle: "Email to send after the session"
+---
+
+::: {.callout-tip}
+Copy the text below into your email client. Adjust the first paragraph to the room.
+:::
+
+---
+
+**Subject:** AI-native dissertation: your links, next steps, and one request
+
+Hi all,
+
+Thank you for today. It was a pleasure to see your metaphors for AI change over four hours, and to watch five very different dissertations take shape.
+
+**Your links**
+
+- Create another dissertation, or revisit the interview: <https://dissertation-ai.dataimago.ai>
+- Today's slides, handout, and prompts: *[this site's URL]*
+- The framework: <https://github.com/dataimago/dataimago>
+- The templates your repository came from: <https://github.com/dataimago/dissertation-app-template> and <https://github.com/dataimago/dissertation-rpkg-template>
+- Quarto: <https://quarto.org> · Model Context Protocol: <https://modelcontextprotocol.io>
+
+**Next steps**
+
+1. **Keep the loop going.** Write → render → review, one section at a time. Ask your AI to *show* changes, not rewrite your prose.
+2. **Grow your knowledge base.** Drop new sources in `raw/inbox/` and run `/ingest`. In tools other than Claude Code, ask your AI to *"read `.claude/skills/ingest/SKILL.md` and follow it"*.
+3. **Tune the harness.** When your AI gets something wrong, add a line to the "How I work" section of `AGENTS.md`.
+4. **Disclose as you go.** Keep your AI contribution statement (the thesis appendix) current, and check your institution's policy.
+5. **Share the link.** Send your committee the website, not just the PDF.
+6. **Privacy.** Unpublished work belongs in a private repository; personal data stays in `raw/private/`, which git never sees.
+
+**One request**
+
+Tell me what broke, confused you, or delighted you: a reply to this email is perfect. Every rough edge you hit is one the next author won't.
+
+Thank you again,
+
+Damian Betebenner
+Center for Assessment

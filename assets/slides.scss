@@ -1,0 +1,84 @@
+/*-- scss:defaults --*/
+// dataimago house palette for the deck.
+$stone-100: #ededeb;
+$ink: #14140f;
+$paper: #fefdfb;
+$forest-700: #434739;
+$forest-50: #f0f1ed;
+$copper-700: #913d15;
+$copper-100: #fbe5d1;
+$focus: #1f618d;
+
+$body-bg: $paper;
+$body-color: $ink;
+$link-color: $forest-700;
+$presentation-heading-color: $ink;
+$presentation-heading-font: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$presentation-heading-font-weight: 600;
+$font-family-sans-serif: "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace: "Noto Sans Mono", ui-monospace, Menlo, monospace;
+$presentation-font-size-root: 34px;
+$code-block-font-size: 0.75em;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Noto+Sans+Mono:wght@400;500&display=swap");
+
+.reveal a { text-decoration: underline; text-underline-offset: 3px; }
+.reveal :focus-visible { outline: 3px solid $focus; outline-offset: 3px; }
+
+// Section title slides: forest ground, paper text (≥ 7:1).
+.reveal .slide.section-title h1,
+.reveal .slide.section-title h2,
+.reveal .slide.section-title p { color: $paper; }
+.reveal .eyebrow {
+  font-size: 0.55em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.reveal .key-insight {
+  background: $forest-50;
+  border-left: 6px solid $forest-700;
+  border-radius: 10px;
+  padding: 0.7em 1em;
+  font-size: 1.05em;
+}
+.reveal .hands-on {
+  background: $copper-100;
+  border: 2px solid $copper-700;
+  border-radius: 12px;
+  padding: 0.7em 1em;
+}
+.reveal .checkpoint {
+  border: 2px dashed $forest-700;
+  border-radius: 12px;
+  padding: 0.6em 1em;
+}
+.reveal .time-mark {
+  font-family: $font-family-monospace;
+  color: $copper-700;
+  font-size: 0.55em;
+}
+.reveal .small { font-size: 0.75em; }
+.reveal table { font-size: 0.7em; }
+.reveal blockquote {
+  background: $forest-50;
+  border-left: 6px solid $forest-700;
+  font-style: normal;
+  box-shadow: none;
+  width: 92%;
+}
+.reveal blockquote,
+.reveal blockquote p { color: $ink; }
+// Dark section backgrounds: keep the footer and slide number legible.
+.reveal.has-dark-background .footer,
+.reveal.has-dark-background .slide-number,
+.reveal.has-dark-background .slide-number a { color: $paper; }
+// Inline code in the house copper, not the stock revealjs blue.
+.reveal code { color: $copper-700; }
+.reveal pre code { color: inherit; }
+// Diagrams: full width, labels never clipped.
+.reveal .cell-output-display svg,
+.reveal .mermaid svg { width: 100% !important; max-width: 100% !important; height: auto; max-height: 520px; }
+.reveal .mermaid .nodeLabel, .reveal .mermaid .label { line-height: 1.25 !important; }

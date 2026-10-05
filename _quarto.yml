@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - slides.qmd
+    - handout.qmd
+    - runsheet.qmd
+    - follow-up.qmd
+    - prompts/*.md
+
+website:
+  title: "Writing an AI-Native Dissertation"
+  description: "AIME-Con 2026 training session — materials, slides, and handout."
+  page-navigation: true
+  navbar:
+    left:
+      - text: Overview
+        href: index.qmd
+      - text: Slides
+        href: slides.qmd
+      - text: Handout
+        href: handout.qmd
+      - text: Prompts
+        menu:
+          - text: "Get your computer ready (pre-work)"
+            href: prompts/01-computer-ready.md
+          - text: "Get to know your repo"
+            href: prompts/02-get-to-know-your-repo.md
+          - text: "Build your knowledge base (any AI tool)"
+            href: prompts/03-ingest-any-tool.md
+      - text: Run-sheet
+        href: runsheet.qmd
+      - text: Follow-up
+        href: follow-up.qmd
+  page-footer:
+    left: "AIME-Con 2026 · Damian Betebenner, Center for Assessment"
+    right: "[dissertation.ai](https://dissertation-ai.dataimago.ai)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/dataimago.scss
+    toc: true
+    link-external-newwindow: false
