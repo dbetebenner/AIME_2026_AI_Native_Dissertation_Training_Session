@@ -789,7 +789,7 @@ Materials, prompts, and these slides: **this site**.
 
 **Damian Betebenner** · Center for Assessment
 
-[dissertation-ai.dataimago.ai](https://dissertation-ai.dataimago.ai) · [github.com/dataimago/dataimago](https://github.com/dataimago/dataimago)
+[dissertation-ai.dataimago.ai](https://dissertation-ai.dataimago.ai)
 
 ::: {.notes}
 Leave this up during Q&A.

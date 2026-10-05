@@ -18,9 +18,7 @@ Thank you for today. It was a pleasure to see your metaphors for AI change over 
 **Your links**
 
 - Create another dissertation, or revisit the interview: <https://dissertation-ai.dataimago.ai>
-- Today's slides, handout, and prompts: *[this site's URL]*
-- The framework: <https://github.com/dataimago/dataimago>
-- The templates your repository came from: <https://github.com/dataimago/dissertation-app-template> and <https://github.com/dataimago/dissertation-rpkg-template>
+- Today's slides, handout, and prompts: <https://dbetebenner.github.io/AIME_2026_AI_Native_Dissertation_Training_Session/>
 - Quarto: <https://quarto.org> · Model Context Protocol: <https://modelcontextprotocol.io>
 
 **Next steps**
