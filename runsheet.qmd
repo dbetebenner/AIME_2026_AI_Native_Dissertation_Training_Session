@@ -13,6 +13,8 @@ format:
 ## The day before
 
 - [ ] **The hub is up:** <https://dissertation-ai.dataimago.ai/onboard> loads; sign in works.
+- [ ] **Sign-in open to attendees:** the production allowlist was removed for the session on 2026-10-05 (any GitHub account can sign in). Re-add `DISSERTATION_ALLOWLIST` in Vercel afterwards if you want it back.
+- [ ] **The app installs for anyone:** <https://github.com/apps/dissertation-ai> is public; attendees install it at step 1.
 - [ ] **Templates on the latest `main`:** `dissertation-app-template` (harness with `AGENTS.md`; Generate warns instead of failing) and `dissertation-rpkg-template` (skips the raw template commit).
 - [ ] **A fresh test repo is clean:** generate one, then check Actions (green, or yellow warnings only), `AGENTS.md` present, no `{{…}}` left. Delete it afterwards.
 - [ ] **Your fallback instance:** `dbetebenner-dissertation` + `irtc` (knowledge site, book, Vercel app) ready to show.
@@ -58,6 +60,7 @@ format:
 
 ### 1:05–1:50 · Hands-on 1: create and meet your repository
 
+- **1:05: first, everyone installs the app** (step 1 on the slide): <https://github.com/apps/dissertation-ai/installations/new> → their account → All repositories. Signing in alone does not install it; without it, Generate fails with a 403 ("doesn't have permission to create repositories").
 - **1:05–1:25: create at the hub.** Circulate. Expected moments:
   - *"N documents still need a file"*: listed but not attached → **Generate without them** is fine.
   - **A name already taken** (e.g. an existing package name): the hub stops, says *Nothing was created*, and jumps to the fix. Nothing is orphaned.
@@ -105,6 +108,7 @@ Unstick anyone who missed the checkpoint.
 |---|---|
 | No AI with file access | **Mode C** (paste in, paste back). Pair with a Mode A neighbour to see the loop. |
 | AI plan rate-limited or out of credit | Pair up; one screen, two people. They continue at home with the handout. |
+| Generate: "doesn't have permission to create repositories" (403) | The app is **not installed** on their account (signing in ≠ installing). Install link: <https://github.com/apps/dissertation-ai/installations/new> → their account → All repositories; then Generate again (answers are kept). |
 | GitHub sign-in fails | Sign out of the hub and back in; check the dissertation.ai app's access at github.com → Settings → Applications. |
 | Repo name taken | Nothing was created. Rename on review, or (package) "Take me to that question". |
 | Wanted private but chose public (or vice versa) | Change it on GitHub: Settings → General → Danger Zone. |

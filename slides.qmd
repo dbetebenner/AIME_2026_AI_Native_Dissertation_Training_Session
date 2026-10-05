@@ -456,12 +456,13 @@ Goal: everyone leaves this block with (1) their repository on GitHub, (2) a loca
 ## Step 1 — Create your dissertation
 
 ::: {.hands-on}
-1. Open **dissertation-ai.dataimago.ai** → **Begin**
-2. Answer from your **pre-work** document (ask your AI to help you transfer answers)
+1. **Install the app first:** [github.com/apps/dissertation-ai](https://github.com/apps/dissertation-ai/installations/new) → **Install** on your account (*All repositories*)
+2. Open **dissertation-ai.dataimago.ai** → **Begin**
+3. Answer from your **pre-work** document (ask your AI to help you transfer answers)
    - Filled in the JSON template? Use **Import JSON** at the top right
-3. **Sign in with GitHub** when asked
-4. On **Review your answers**: check the plan — repository names, **public or private**
-5. **Generate my dissertation**
+4. **Sign in with GitHub** when asked
+5. On **Review your answers**: check the plan — repository names, **public or private**
+6. **Generate my dissertation**
 :::
 
 ::: {.small}
@@ -469,7 +470,8 @@ Private keeps unpublished work private. Public lets your sites publish on GitHub
 :::
 
 ::: {.notes}
-1:05–1:25. Circulate. Expect:
+1:05–1:25. Circulate. FIRST make sure everyone installed the app (step 1): signing in authorizes the app but does not install it, and without the install Generate fails with "doesn't have permission to create repositories" (a 403). Fix: the install link, then Generate again. "All repositories" lets it create the new repos; they can narrow or uninstall it afterwards (GitHub → Settings → Applications).
+Expect:
 - "documents still need a file" notice: the documents they listed but didn't attach → "Generate without them" is fine; attach later.
 - a name already taken: the hub now stops with "Nothing was created" and focuses the rename field / jumps to the package-name question.
 - Private chosen: the done page explains why there are no website links.

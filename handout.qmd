@@ -38,11 +38,12 @@ format:
 
 ### 1. Create it
 
-1. Open <https://dissertation-ai.dataimago.ai> → **Begin**.
-2. Answer from your pre-work document. Ask your AI to help you move answers across. If you filled in the JSON template, use **Import JSON** (top right) → paste → **Import these answers**.
-3. **Sign in with GitHub** when asked.
-4. On **Review your answers**, check *Before you generate*: repository names, **public or private**.
-5. Press **Generate my dissertation**.
+1. **Install the dissertation-ai app on your GitHub account first:** <https://github.com/apps/dissertation-ai/installations/new> → **Install** → your account → **All repositories**. (Signing in alone does not install it, and Generate needs it. You can narrow or uninstall it afterwards: GitHub → Settings → Applications.)
+2. Open <https://dissertation-ai.dataimago.ai> → **Begin**.
+3. Answer from your pre-work document. Ask your AI to help you move answers across. If you filled in the JSON template, use **Import JSON** (top right) → paste → **Import these answers**.
+4. **Sign in with GitHub** when asked.
+5. On **Review your answers**, check *Before you generate*: repository names, **public or private**.
+6. Press **Generate my dissertation**.
 
 **If a notice says documents still need a file:** you listed documents but didn't attach them. Choose **Generate without them** and attach them later, or attach now.
 
@@ -123,6 +124,7 @@ Open the ingest report. Pick **one** claim the AI made about your work. Is it co
 | Symptom | Do this |
 |---|---|
 | My AI can't see files or run `git` | You're in **Mode C**: paste files in and paste changes back. Same results. |
+| Generate says it "doesn't have permission to create repositories" | Install the app on your account: <https://github.com/apps/dissertation-ai/installations/new> (All repositories), then Generate again. Your answers are kept. |
 | GitHub sign-in loops | Sign out of the hub (top right), then sign in again. Allow the dissertation.ai app access to your account. |
 | "Name already exists" | Nothing was created. Pick another name; the page takes you there. |
 | The `packages/r-packages/…` folder is empty | You cloned without `--recursive`. Run `git submodule update --init --recursive`. |
