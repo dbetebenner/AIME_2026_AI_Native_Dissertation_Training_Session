@@ -66,6 +66,7 @@ Also ask each for their readiness-report "mode" (A local / B connected / C chat-
 
 <span class="time-mark">0:13</span>
 
+::: {.metaphor-table}
 | Who | AI is like… | …and like… | …and like… |
 |---|---|---|---|
 | | | | |
@@ -73,6 +74,7 @@ Also ask each for their readiness-report "mode" (A local / B connected / C chat-
 | | | | |
 | | | | |
 | | | | |
+:::
 
 ::: {.notes}
 0:13. Fill as people speak (chalkboard: press C; or edit the .qmd live before the session ends — the deck is the record).
@@ -285,6 +287,39 @@ For the first time, the **consumers** of research are not exclusively human.
 0:36–0:40. Connect to their metaphors: a "medium" picture of AI fits this shift; a "search engine" picture doesn't.
 :::
 
+## Relevance, when the readers are machines {.relevance}
+
+<span class="time-mark">0:40</span>
+
+::: {.columns}
+::: {.column width="56%"}
+![](assets/img/intheweights-landing.png){fig-alt="The landing page of intheweights.com: the headline 'Are you in the weights?', a name field, and the list of AI models it checks, above a row of today's top-ranked names." .bordered}
+
+[*Are you in the weights?* — [intheweights.com](https://intheweights.com/), Thomas Dimson & Joey Flynn]{.source}
+:::
+::: {.column width="44%"}
+**"In the weights"**: a model recalls you *without searching the web*. A kind of fame that lives as long as the model does.
+
+::: {.fragment}
+For a scholar, **relevance** now has a second audience:
+
+- Is your work *in the weights* — or easy for an AI to find, read and cite **correctly**?
+- A PDF behind a login is close to **invisible** to it.
+:::
+
+::: {.fragment .small}
+The site is a toy: its scores are uncalibrated, and models invent biographies. Being recalled is not being **right**.
+:::
+:::
+:::
+
+::: {.notes}
+0:40–0:42. Show the site; if Wi-Fi allows, type a famous name live (not an attendee's, unless they ask).
+The point: relevance used to mean being read and cited by people. Now it also means being legible to the models that read for people. What gets into the weights is decided by what was public, plentiful and well-linked.
+Bridge to the next slide: "So how do you make your dissertation legible to both? One source, many channels."
+Caveat honestly: it's a novelty measure (uncalibrated confidence, hallucinated details). Don't chase the score; publish so that what is learned about you is correct.
+:::
+
 ## One source, many channels
 
 ```{mermaid}
@@ -303,7 +338,7 @@ The dissertation stops being only a document. It becomes a **platform**.
 :::
 
 ::: {.notes}
-0:40–0:45. Be honest about the fourth branch: today you'll build the first three for real; the AI-agent channel is where this goes (we'll show it at 3:20).
+0:42–0:45. Be honest about the fourth branch: today you'll build the first three for real; the AI-agent channel is where this goes (we'll show it at 3:20).
 :::
 
 # What you'll build {.section-title background-color="#434739"}

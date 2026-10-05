@@ -46,6 +46,7 @@ format:
 ### 0:25–0:45 · Why: the dissertation as transmission
 
 - **Say:** what a dissertation *is*; six centuries, one modality; "digitized the container, not the knowledge"; new consumers; one source, many channels.
+- **Show (0:40):** relevance when the readers are machines: [intheweights.com](https://intheweights.com/). "In the weights" means a model recalls you without searching. Optional live demo with a famous name; caveat that the score is a toy (uncalibrated; models invent biographies).
 - **Ask:** "Who reads your dissertation besides your committee?"
 - **Cut if behind:** compress the eras to the single diagram.
 
