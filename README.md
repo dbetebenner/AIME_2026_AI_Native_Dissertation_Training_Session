@@ -1,6 +1,10 @@
 # Writing an AI-Native Dissertation (AIME-Con 2026 training session)
 
+Part of Damian Betebenner's talks: <https://dbetebenner.github.io/talks/>
+
 Materials for the 4-hour, hands-on training session: the slides, the attendee handout, copy-paste prompts, the facilitator run-sheet, and the post-session follow-up. It's one Quarto website.
+
+**Published site:** <https://dbetebenner.github.io/AIME_2026_AI_Native_Dissertation_Training_Session/> · **Handout PDF:** <https://dbetebenner.github.io/AIME_2026_AI_Native_Dissertation_Training_Session/handout.pdf>
 
 | File | What |
 |---|---|
